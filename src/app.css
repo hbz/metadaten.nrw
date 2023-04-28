@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+		font-family: 'Barlow Condensed';
+		src: local('Barlow Condensed'), local('Barlow-Condensed'), local('barlow condensed'), local('barlow-condensed'),
+			url('/fonts/BarlowCondensed-Medium.ttf');
+		font-weight: medium;
+		font-display: swap;
+	}
+
+  @font-face {
+		font-family: 'Roboto Mono';
+		src: local('Roboto Mono'), local('Roboto-Mono'), local('roboto mono'), local('roboto-mono'),
+			url('/fonts/RobotoMono-Medium.ttf');
+		font-weight: medium;
+		font-display: swap;
+	}
+}
