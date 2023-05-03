@@ -1,5 +1,5 @@
 <script>
-	import ToolDescription from '$lib/ToolDescription.svelte';
+	import ToolDescription from '$lib/components/ToolDescription.svelte';
 	const services = {
 		openrefine: {
 			description: 'Metadaten in Tools wie OpenRefine nutzen',
@@ -11,6 +11,28 @@
 				{ href: 'https://lobid.org/gnd', text: 'lobid-gnd' },
 				{ href: 'https://lobid.org/resources', text: 'lobid-resources' },
 				{ href: 'https://gokb.org/de/index.html', text: 'GOKb' },
+				{ href: 'https://lobid.org/organisations', text: 'lobid-organisations' }
+			]
+		},
+		vocabs: {
+			description: 'Kontrollierte Vokabulare publizieren',
+			links: [
+				{ href: 'https://metafacture.org/', text: 'metafacture' },
+				{ href: 'https://metafacture.org/playground/', text: 'metafacture-playground' }
+			]
+		},
+		etl: {
+			description: 'Metadaten zusammenführen und transformieren (ETL)',
+			links: [
+				{ href: 'https://metafacture.org/', text: 'metafacture' },
+				{ href: 'https://metafacture.org/playground/', text: 'metafacture-playground' }
+			]
+		},
+		lookup: {
+			description: 'Lookups in einem System integrieren',
+			links: [
+				{ href: 'https://lobid.org/gnd', text: 'lobid-gnd' },
+				{ href: 'https://lobid.org/resources', text: 'lobid-resources' },
 				{ href: 'https://lobid.org/organisations', text: 'lobid-organisations' }
 			]
 		}
@@ -38,30 +60,11 @@
 					description={services.databases.description}
 					links={services.databases.links}
 				/>
-				<section>
-					<p class="ml-4 mt-10 mb-2 text-white text-xl font-bold">
-						Kontrollierte Vokabulare publizieren
-					</p>
-					<ExternalLink href="https://skohub.io" text="SkoHub Vocabs" />
-					<ExternalLink text="Eigener SkoHub" />
-				</section>
+				<ToolDescription description={services.vocabs.description} links={services.vocabs.links} />
 			</div>
 			<div class="flex flex-col">
-				<section>
-					<p class="ml-4 mt-10 mb-2 text-white text-xl font-bold">
-						Metadaten zusammenführen und transformieren (ETL)
-					</p>
-					<ExternalLink href="https://metafacture.org/" text="metafacture" />
-					<ExternalLink href="https://metafacture.org/playground/" text="metafacture-playground" />
-				</section>
-				<section>
-					<p class="ml-4 mt-10 mb-2 text-white text-xl font-bold">
-						Lookups in einem System integrieren
-					</p>
-					<ExternalLink href="https://lobid.org/gnd" text="lobid-gnd" />
-					<ExternalLink href="https://lobid.org/resources" text="lobid-resources" />
-					<ExternalLink href="https://lobid.org/organisations" text="lobid-organisations" />
-				</section>
+				<ToolDescription description={services.etl.description} links={services.etl.links} />
+				<ToolDescription description={services.lookup.description} links={services.lookup.links} />
 			</div>
 		</div>
 	</div>

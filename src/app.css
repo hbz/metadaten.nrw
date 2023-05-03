@@ -18,4 +18,12 @@
 		font-weight: medium;
 		font-display: swap;
 	}
+
+  @font-face {
+		font-family: 'Roboto Slab';
+		src: local('Roboto Slab'), local('Roboto-Slab'), local('roboto slab'), local('roboto-slab'),
+			url('/fonts/RobotoSlab-Bold.ttf');
+		font-weight: bold;
+		font-display: swap;
+	}
 }

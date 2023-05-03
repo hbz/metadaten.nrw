@@ -11,12 +11,13 @@ export default {
       customBlueBg: "#1D2DB9",
       linkBg: "#192271",
       linkText: "#74EE71",
-      activitesBg: "#FFF9F9"
+      activitesBg: "#EDEDED"
     },
     extend: {
       fontFamily: {
         barlowCondensed: ["Barlow Condensed"],
-        robotoMono: ["Roboto Mono"]
+        robotoMono: ["Roboto Mono"],
+        robotoSlab: ["Roboto Slab"],
       }
 
     },
