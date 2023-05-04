@@ -3,7 +3,10 @@
 	const services = {
 		openrefine: {
 			description: 'Metadaten in Tools wie OpenRefine nutzen',
-			links: [{ href: 'https://lobid.org/gnd', text: 'lobid-gnd' }]
+			links: [
+				{ href: 'https://lobid.org/gnd', text: 'lobid-gnd' },
+				{ href: 'https://skohub.io/', text: 'SkoHub Vocabs' }
+			]
 		},
 		databases: {
 			description: 'Metadaten für Datenbanken oder Suchindices beziehen',
@@ -41,16 +44,16 @@
 
 <section
 	id="services"
-	class="relative snap-start shrink-0 w-full h-screen bg-hbzorange flex flex-col justify-center items-start"
+	class="relative md:snap-start md:shrink-0 w-full md:h-screen bg-hbzorange flex flex-col justify-center items-start"
 >
-	<div class="bg-white h-20 w-full absolute top-0">
+	<div class="md:visible invisible bg-white h-20 w-full absolute top-0 p-10">
 		<img class="bottom-0 left-8 absolute" alt="metafacture logo" src="logos/metafacture.png" />
 	</div>
-	<div class="ml-20">
+	<div class="md:ml-20 ml-5">
 		<h1 class="text-[48px] text-headlineBlue w-full font-barlowCondensed tracking-wide">
 			Metadaten, Tools, APIs
 		</h1>
-		<div class="flex flex-row">
+		<div class="flex md:flex-row flex-col">
 			<div class="flex flex-col basis-1/2 mr-20">
 				<ToolDescription
 					description={services.openrefine.description}
@@ -67,5 +70,8 @@
 				<ToolDescription description={services.lookup.description} links={services.lookup.links} />
 			</div>
 		</div>
+	</div>
+	<div class="md:invisible visible bg-white h-20 w-full relative">
+		<img class="bottom-0 right-8 absolute" alt="metafacture logo" src="logos/metafacture.png" />
 	</div>
 </section>

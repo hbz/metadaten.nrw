@@ -1,13 +1,12 @@
 <section
 	id="activities"
-	class="relative snap-start w-full shrink-0 h-screen bg-activitesBg flex flex-col justify-center items-start"
+	class="relative md:snap-start md:shrink-0 md:h-screen bg-activitesBg flex flex-col justify-center items-start"
 >
-	<div class="bg-white h-20 w-full absolute top-0" />
-	<div class="ml-20 mr-20 w-3/4">
+	<div class="md:ml-20 ml-5">
 		<h1 class="text-[48px] text-hbzorange font-barlowCondensed tracking-wide">
 			Unsere Aktivitäten
 		</h1>
-		<div class="flex flex-row">
+		<div class="flex md:flex-row flex-col">
 			<div class="flex flex-col basis-1/3 p-4 leading-relaxed font-robotoSlab">
 				<p>
 					Das World Wide Web Consortium (W3C) ist eine im Jahr 1989 von Tim Berners-Lee gegründete
@@ -19,7 +18,10 @@
 					offen zugänglich machen.
 				</p>
 			</div>
-			<div class="flex flex-col basis-1/3 p-4 ml-20 leading-relaxed font-robotoSlab">
+			<div class="md:invisible visible">
+				<img class="mx-auto my-3" alt="nrw logo" src="/logos/w3c.png" />
+			</div>
+			<div class="flex flex-col basis-1/3 p-4 md:ml-20 leading-relaxed font-robotoSlab">
 				<p>
 					Die Deutsche Initiative für Netzwerkinformationen e.V. (DINI) unterstützt die Entwicklung
 					gemeinsamer Standards für Informationsinfrastrukturen an Hochschulen. Wir haben hier das
@@ -32,18 +34,24 @@
 					entwickeln.
 				</p>
 			</div>
-			<div class="flex flex-col basis-1/3 p-4 ml-20 leading-relaxed font-robotoSlab">
+			<div class="md:invisible visible">
+				<img class="mx-auto my-3" alt="nrw logo" src="/logos/dini.png" />
+			</div>
+			<div class="flex flex-col basis-1/3 p-4 md:ml-20 leading-relaxed font-robotoSlab">
 				<p>
 					Frisch dabei sind wir bei der Dublin Core Metadata Initiative (DCMI) in der Arbeitsgruppe
 					DCMI Usage Board, das als Editorial Board für die Spezifikationen des semantischen
 					Vokabulars von Dublin Core seit mehr als 20 Jahren verantwortlich ist.
 				</p>
 			</div>
+			<div class="md:invisible visible">
+				<img class="mx-auto my-3" alt="nrw logo" src="/logos/dc.png" />
+			</div>
 		</div>
 	</div>
 	<div class="absolute bottom-20 right-20 mr-0 ml-auto">
-		<img class="mr-0 ml-auto mb-10" alt="nrw logo" src="/logos/w3c.png" />
-		<img class="mr-0 ml-auto mb-10" alt="nrw logo" src="/logos/dini.png" />
-		<img class="mr-0 ml-auto mb-10" alt="nrw logo" src="/logos/dc.png" />
+		<img class="md:visible invisible mr-0 ml-auto mb-10" alt="nrw logo" src="/logos/w3c.png" />
+		<img class="md:visible invisible mr-0 ml-auto mb-10" alt="nrw logo" src="/logos/dini.png" />
+		<img class="md:visible invisible mr-0 ml-auto mb-10" alt="nrw logo" src="/logos/dc.png" />
 	</div>
 </section>
