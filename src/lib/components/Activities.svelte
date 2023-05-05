@@ -1,7 +1,4 @@
-<section
-	id="activities"
-	class="relative md:snap-start md:shrink-0 md:h-screen bg-activitesBg flex flex-col justify-center items-start"
->
+<section id="activities" class="relative bg-activitesBg flex flex-col justify-center items-start">
 	<div class="md:ml-20 ml-5">
 		<h1 class="text-[48px] text-hbzorange font-barlowCondensed tracking-wide">
 			Unsere Aktivitäten

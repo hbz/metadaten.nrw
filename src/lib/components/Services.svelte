@@ -44,9 +44,9 @@
 
 <section
 	id="services"
-	class="relative md:snap-start md:shrink-0 w-full md:h-screen bg-hbzorange flex flex-col justify-center items-start"
+	class="relative w-full bg-hbzorange flex flex-col justify-center items-start"
 >
-	<div class="md:visible invisible bg-white h-20 w-full absolute top-0 p-10">
+	<div class="md:block hidden bg-white h-20 w-full p-10 relative">
 		<img class="bottom-0 left-8 absolute" alt="metafacture logo" src="logos/metafacture.png" />
 	</div>
 	<div class="md:ml-20 ml-5">

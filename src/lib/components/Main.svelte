@@ -2,9 +2,7 @@
 	import InternalLink from '$lib/components/Links/InternalLink.svelte';
 </script>
 
-<section
-	class="md:snap-start md:shrink-0 w-full md:h-screen bg-blue-800 flex flex-col justify-center items-start"
->
+<section class="w-full bg-blue-800 flex flex-col justify-center items-start">
 	<img class="md:visible invisible absolute top-20 right-20" alt="hbz logo" src="/logos/hbz.svg" />
 	<div class="md:ml-20 ml-5">
 		<h1
