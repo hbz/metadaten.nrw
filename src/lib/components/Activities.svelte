@@ -1,5 +1,6 @@
 <section id="activities" class="relative bg-activitesBg flex flex-col justify-center items-start">
-	<div class="md:ml-20 ml-5">
+	<div class="md:block hidden bg-white h-20 w-full p-10 relative" />
+	<div class="md:ml-19 ml-5">
 		<h1 class="text-[48px] text-hbzorange font-barlowCondensed tracking-wide">
 			Unsere Aktivitäten
 		</h1>

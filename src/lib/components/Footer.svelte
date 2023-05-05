@@ -1,4 +1,4 @@
-<div class="snap-start shrink-0 ml-20 mt-10 mb-10 relative">
+<div class="ml-20 mt-10 mb-10 relative">
 	<img class="" alt="hbz logo" src="/logos/hbz.svg" />
 
 	<p class="font-robotoSlab">Hochschulbibliothekszentrum NRW (hbz)</p>

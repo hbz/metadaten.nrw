@@ -2,7 +2,7 @@
 	import InternalLink from '$lib/components/Links/InternalLink.svelte';
 </script>
 
-<section class="w-full bg-blue-800 flex flex-col justify-center items-start">
+<section class="md:h-screen w-full bg-blue-800 flex flex-col justify-center items-start">
 	<img class="md:visible invisible absolute top-20 right-20" alt="hbz logo" src="/logos/hbz.svg" />
 	<div class="md:ml-20 ml-5">
 		<h1
@@ -28,10 +28,8 @@
 		<div class="md:flex md:flex-row">
 			<InternalLink href="#services" text="Metadaten, Tools und APIs" />
 			<InternalLink href="#activities" text="Unsere Aktivitäten" />
-			<p class="text-white md:absolute md:right-20 md:bottom-20 font-barlowCondensed text-[16px]">
-				... im Aufbau ...
-			</p>
 		</div>
 	</div>
+	<p class="text-white ml-auto mr-20 font-barlowCondensed text-[16px]">... im Aufbau ...</p>
 	<img class="md:invisible visible ml-auto mr-8" alt="hbz logo" src="/logos/hbz.svg" />
 </section>
