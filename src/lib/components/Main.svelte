@@ -32,7 +32,7 @@
 	</div>
 	<img
 		alt="linked data in background"
-		class="absolute opacity-10 md:h-screen w-full"
+		class="absolute opacity-10 md:h-screen object-cover w-full"
 		src="/linked-data.png"
 	/>
 	<div class="absolute h-1/4 w-2/3 bg-white blur-2xl left-1/4 top-20 opacity-10 rounded-[50%]" />

@@ -38,6 +38,10 @@
 				{ href: 'https://lobid.org/resources', text: 'lobid-resources' },
 				{ href: 'https://lobid.org/organisations', text: 'lobid-organisations' }
 			]
+		},
+		packageMetadata: {
+			description: 'Paket-Metadaten zu E-Ressourcen in Drittsysteme übernehmen',
+			links: [{ href: 'https://gokb.org/', text: 'GOKb' }]
 		}
 	};
 </script>
@@ -68,6 +72,10 @@
 			<div class="flex flex-col">
 				<ToolDescription description={services.etl.description} links={services.etl.links} />
 				<ToolDescription description={services.lookup.description} links={services.lookup.links} />
+				<ToolDescription
+					description={services.packageMetadata.description}
+					links={services.packageMetadata.links}
+				/>
 			</div>
 		</div>
 	</div>
