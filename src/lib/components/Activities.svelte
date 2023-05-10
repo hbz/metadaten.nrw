@@ -41,15 +41,23 @@
 					DCMI Usage Board, das als Editorial Board für die Spezifikationen des semantischen
 					Vokabulars von Dublin Core seit mehr als 20 Jahren verantwortlich ist.
 				</p>
+				<div class="mb-0 mt-auto">
+					<img
+						class="md:visible invisible mr-0 ml-auto mb-10"
+						alt="nrw logo"
+						src="/logos/w3c.png"
+					/>
+					<img
+						class="md:visible invisible mr-0 ml-auto mb-10"
+						alt="nrw logo"
+						src="/logos/dini.png"
+					/>
+					<img class="md:visible invisible mr-0 ml-auto mb-10" alt="nrw logo" src="/logos/dc.png" />
+				</div>
 			</div>
 			<div class="md:invisible visible">
 				<img class="mx-auto my-3" alt="nrw logo" src="/logos/dc.png" />
 			</div>
 		</div>
-	</div>
-	<div class="absolute bottom-20 right-20 mr-0 ml-auto">
-		<img class="md:visible invisible mr-0 ml-auto mb-10" alt="nrw logo" src="/logos/w3c.png" />
-		<img class="md:visible invisible mr-0 ml-auto mb-10" alt="nrw logo" src="/logos/dini.png" />
-		<img class="md:visible invisible mr-0 ml-auto mb-10" alt="nrw logo" src="/logos/dc.png" />
 	</div>
 </section>
