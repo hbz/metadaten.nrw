@@ -17,7 +17,7 @@
 				</p>
 			</div>
 			<div class="md:invisible visible">
-				<img class="mx-auto my-3" alt="nrw logo" src="/logos/w3c.png" />
+				<img class="mx-auto my-3" alt="nrw logo" src="logos/w3c.png" />
 			</div>
 			<div class="flex flex-col basis-1/3 p-4 md:ml-20 leading-relaxed font-robotoSlab">
 				<p>
@@ -33,7 +33,7 @@
 				</p>
 			</div>
 			<div class="md:invisible visible">
-				<img class="mx-auto my-3" alt="nrw logo" src="/logos/dini.png" />
+				<img class="mx-auto my-3" alt="nrw logo" src="logos/dini.png" />
 			</div>
 			<div class="flex flex-col basis-1/3 p-4 md:ml-20 leading-relaxed font-robotoSlab">
 				<p>
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 			<div class="md:invisible visible">
-				<img class="mx-auto my-3" alt="nrw logo" src="/logos/dc.png" />
+				<img class="mx-auto my-3" alt="nrw logo" src="logos/dc.png" />
 			</div>
 		</div>
 	</div>
