@@ -4,8 +4,9 @@
 	export let text: string;
 	export let href: string;
 
-	function scrollIntoView({ target }) {
-		const el = document.querySelector(target.getAttribute('href'));
+	function scrollIntoView(event: MouseEvent) {
+		const target = event.target as HTMLAnchorElement;
+		const el = document.querySelector(target.getAttribute('href')!);
 		if (!el) return;
 		el.scrollIntoView({
 			behavior: 'smooth'
@@ -13,4 +14,4 @@
 	}
 </script>
 
-<a {href} on:click|preventDefault={scrollIntoView} class={className}>{text}</a>
+<a {href} on:click={scrollIntoView} class={className}>{text}</a>
