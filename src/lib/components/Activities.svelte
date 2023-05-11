@@ -21,7 +21,7 @@
 			<div class="flex flex-col basis-1/3 p-4 md:ml-20 leading-relaxed font-robotoSlab">
 				<p>
 					Die Deutsche Initiative für Netzwerkinformationen e.V. (DINI) unterstützt Absprache und Arbeitsteilung in Bezug auf die 
-					Entwicklung von Informationsinfrastrukturen der Hochschulen und anderer Forschungseinrichtungen. Wir sind insbesonder ein der 
+					Entwicklung von Informationsinfrastrukturen der Hochschulen und anderer Forschungseinrichtungen. Wir sind in der 
 					DINI AG KIM (Kompetenzzentrum Interoperable Metadaten) aktiv, mit dem Ziel anwendungsübergreifende Metadatenprofile zu fördern, 
 					überregionale Empfehlungen und Best Practices zu entwickeln und dabei den Anschluss der deutschsprachigen Community an die 
 					internationale Metadaten-Community zu gewährleisten.
