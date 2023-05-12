@@ -40,7 +40,7 @@
 			]
 		},
 		packageMetadata: {
-			description: 'Paket-Metadaten zu E-Ressourcen in Drittsysteme übernehmen',
+			description: 'Paket-Metadaten zu E-Ressourcen nutzen',
 			links: [{ href: 'https://gokb.org/', text: 'GOKb' }]
 		}
 	};
