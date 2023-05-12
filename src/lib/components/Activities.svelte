@@ -22,7 +22,7 @@
 				<img class="mx-auto mt-[45px] md:mb-[50px] md:mt-auto" alt="nrw logo" src="logos/w3c.png" />
 			</div>
 			<div class="flex mx-[40px] mt-[35px] flex-col basis-1/3 md:ml-20">
-				<p class="mb-[42px]">
+				<p class="md:mb-[42px]">
 					Die Deutsche Initiative für Netzwerkinformationen e.V. (DINI) unterstützt Absprache und
 					Arbeitsteilung in Bezug auf die Entwicklung von Informationsinfrastrukturen der
 					Hochschulen und anderer Forschungseinrichtungen. Wir sind in der DINI AG KIM
