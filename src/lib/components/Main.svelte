@@ -4,7 +4,11 @@
 </script>
 
 <section class="relative md:h-screen w-full bg-blue-800 flex flex-col justify-center items-start">
-	<img class="md:visible invisible absolute top-20 right-20" alt="hbz logo" src="logos/hbz.svg" />
+	<img
+		class="md:visible invisible absolute top-[86px] right-[102px]"
+		alt="hbz logo"
+		src="logos/hbz.svg"
+	/>
 	<div class="absolute text-2xl opacity-20 whitespace-pre -right-[48rem] leading-10">
 		{marcXML}
 	</div>
@@ -22,7 +26,7 @@
 	/>
 	<div class="md:ml-20 ml-5 md:my-auto z-10">
 		<h1
-			class="md:block hidden md:text-[80px] text-[56px] text-hbzorange font-barlowCondensed tracking-[.25em]"
+			class="md:block hidden md:text-[5vw] text-[56px] text-hbzorange font-barlowCondensed tracking-[.25em]"
 		>
 			METADATEN.NRW
 		</h1>
@@ -37,7 +41,7 @@
 		>
 			NRW
 		</h1>
-		<p class="text-white w-3/4 mb-10 font-robotoMono tracking-wide">
+		<p class="text-white w-2/3 mb-10 font-robotoMono tracking-[0.035em]">
 			Metadaten.nrw ist ein Hub für Metadatenkompetenz und Wegweiser für offene Metadatenservices
 			des Hochschulbibliothekszentrums NRW (hbz).
 		</p>
@@ -46,7 +50,9 @@
 			<InternalLink href="#activities" text="Unsere Aktivitäten" />
 		</div>
 	</div>
-	<p class="text-white ml-auto mr-20 md:mb-5 md:mt-auto font-barlowCondensed text-[16px]">
+	<p
+		class="text-white ml-auto mr-20 md:mb-[64px] md:mr-[96px] md:mt-auto font-barlowCondensed text-[20px]"
+	>
 		... im Aufbau ...
 	</p>
 	<img class="md:invisible visible ml-auto mr-8" alt="hbz logo" src="logos/hbz.svg" />

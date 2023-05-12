@@ -53,11 +53,13 @@
 	<div class="md:block hidden bg-white h-20 w-full p-10 relative">
 		<img class="bottom-0 left-8 absolute" alt="metafacture logo" src="logos/metafacture.png" />
 	</div>
-	<div class="md:ml-20 ml-5">
-		<h1 class="text-[48px] text-headlineBlue w-full font-barlowCondensed tracking-wide">
+	<div class="">
+		<h1
+			class="text-[48px] ml-[23px] mt-[55px] md:ml-[100px] md:mt-[66px] text-headlineBlue w-full font-barlowCondensed tracking-wide"
+		>
 			Metadaten, Tools, APIs
 		</h1>
-		<div class="flex md:flex-row flex-col">
+		<div class="flex md:flex-row flex-col ml-[23px] md:ml-[100px]">
 			<div class="flex flex-col basis-1/2 mr-20">
 				<ToolDescription
 					description={services.openrefine.description}
