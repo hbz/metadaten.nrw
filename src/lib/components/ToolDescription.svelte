@@ -5,8 +5,8 @@
 	export let description: string;
 </script>
 
-<section>
-	<p class="ml-4 mt-10 mb-2 text-white text-xl font-bold font-robotoMono">
+<section class="mb-[40px]">
+	<p class="text-white mb-[15px] text-xl font-bold font-robotoMono">
 		{description}
 	</p>
 	{#each links as link}

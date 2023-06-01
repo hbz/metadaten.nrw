@@ -3,18 +3,18 @@
 	import { marcXML } from '$lib/components/constants.js';
 </script>
 
-<section class="relative md:h-screen w-full bg-blue-800 flex flex-col justify-center items-start">
+<section class="relative lg:h-[1514px]] w-full bg-blue-800 flex flex-col justify-center text-center rounded-b-[2.5rem] overflow-hidden">
 	<img
-		class="md:visible invisible absolute top-[86px] right-[102px]"
+		class="invisible absolute top-[86px] right-[102px]"
 		alt="hbz logo"
 		src="logos/hbz.svg"
 	/>
-	<div class="absolute text-2xl opacity-20 whitespace-pre -right-[48rem] leading-10">
+	<div class="w-[50%] overflow-hidden absolute text-xl text-left opacity-20 whitespace-pre top-[10rem] sm:-right-[10rem] lg:lef-[0rem] leading-[4rem]">
 		{marcXML}
 	</div>
 	<img
 		alt="linked data in background"
-		class="absolute opacity-10 md:h-screen object-cover w-full"
+		class="absolute opacity-10 h-screen object-cover w-full ml-10 -mt-40"
 		src="linked-data.png"
 	/>
 	<div class="absolute h-1/4 w-2/3 bg-white blur-2xl left-1/4 top-20 opacity-5 rounded-[50%]" />
@@ -24,36 +24,35 @@
 	<div
 		class="absolute h-1/4 w-1/3 bg-white blur-2xl left-0 bottom-56 opacity-5 rounded-[50%] rotate-[35deg]"
 	/>
-	<div class="md:ml-20 ml-5 md:my-auto z-10">
+	<div class="p-8 pt-16 z-10">
 		<h1
-			class="md:block hidden md:text-[5vw] text-[56px] text-hbzorange font-barlowCondensed tracking-[.25em]"
+			class="sm:block hidden text-[56px] sm:text-[64px] lg:text-[80px] text-hbzorange font-barlowCondensed tracking-[.25em]"
 		>
 			METADATEN.NRW
 		</h1>
 
 		<h1
-			class="md:hidden block md:text-[80px] text-[56px] text-hbzorange font-barlowCondensed tracking-[.25em]"
+			class="sm:hidden block md:text-[80px] text-[52px] text-hbzorange font-barlowCondensed tracking-[.20em] leading-none"
 		>
-			METADATEN.
+			<span>METADATEN.</span>
+			<br/>
+			<span>NRW</span>
 		</h1>
-		<h1
-			class="md:hidden block md:text-[80px] text-[56px] text-hbzorange font-barlowCondensed tracking-[.25em]"
-		>
-			NRW
-		</h1>
-		<p class="text-white w-2/3 mb-10 font-robotoMono tracking-[0.035em]">
-			Metadaten.nrw ist ein Hub für Metadatenkompetenz und Wegweiser für offene Metadatenservices
-			des Hochschulbibliothekszentrums NRW (hbz).
-		</p>
-		<div class="md:flex md:flex-row">
-			<InternalLink href="#services" text="Metadaten, Tools und APIs" />
-			<InternalLink href="#activities" text="Unsere Aktivitäten" />
+		<div class="max-w-xl mx-auto">
+			<p class="text-white mt-2 mb-20 font-robotoMono tracking-[0.035em]">
+				Metadaten.nrw ist ein Hub für Metadatenkompetenz und Wegweiser für offene Metadatenservices
+				des Hochschulbibliothekszentrums NRW (hbz).
+			</p>
+			<div class="max-w-xs mx-auto justify-center">
+				<InternalLink href="#services" text="Metadaten, Tools, APIs" />
+				<InternalLink href="#activities" text="Unsere Aktivitäten" />
+			</div>
 		</div>
 	</div>
+	<img class="mx-auto w-[106px]" alt="hbz logo" src="logos/hbz.svg" />
 	<p
-		class="text-white ml-auto mr-20 md:mb-[64px] md:mr-[96px] md:mt-auto font-barlowCondensed text-[20px]"
+		class="text-white my-12 font-barlowCondensed text-[20px]"
 	>
 		... im Aufbau ...
 	</p>
-	<img class="md:invisible visible ml-auto mr-8" alt="hbz logo" src="logos/hbz.svg" />
 </section>

@@ -48,40 +48,38 @@
 
 <section
 	id="services"
-	class="relative w-full bg-hbzorange flex flex-col justify-center items-start"
+	class="relative flex flex-col justify-center items-start max-w-2xl mx-auto"
 >
-	<div class="md:block hidden bg-white h-20 w-full p-10 relative">
+	<div class="bg-white h-11 w-full relative">
 		<img class="bottom-0 left-8 absolute" alt="metafacture logo" src="logos/metafacture.png" />
 	</div>
-	<div class="">
+	<div class="bg-hbzorange w-full p-[23px] pt-16 justify-center text-center rounded-[2.5rem]">
 		<h1
-			class="text-[48px] ml-[23px] mt-[55px] md:ml-[100px] md:mt-[66px] text-headlineBlue w-full font-barlowCondensed tracking-wide"
+			class="text-[48px] text-headlineBlue w-full font-barlowCondensed tracking-wide mb-[50px] leading-none"
 		>
 			Metadaten, Tools, APIs
 		</h1>
-		<div class="flex md:flex-row flex-col ml-[23px] md:ml-[100px]">
-			<div class="flex flex-col basis-1/2 mr-20">
-				<ToolDescription
-					description={services.openrefine.description}
-					links={services.openrefine.links}
-				/>
-				<ToolDescription
-					description={services.databases.description}
-					links={services.databases.links}
-				/>
-				<ToolDescription description={services.vocabs.description} links={services.vocabs.links} />
-			</div>
-			<div class="flex flex-col">
-				<ToolDescription description={services.etl.description} links={services.etl.links} />
-				<ToolDescription description={services.lookup.description} links={services.lookup.links} />
-				<ToolDescription
-					description={services.packageMetadata.description}
-					links={services.packageMetadata.links}
-				/>
-			</div>
+		<div class="max-w-sm mx-auto">
+			<ToolDescription
+				description={services.openrefine.description}
+				links={services.openrefine.links}
+			/>
+			<ToolDescription
+				description={services.databases.description}
+				links={services.databases.links}
+			/>
+			<ToolDescription description={services.vocabs.description} links={services.vocabs.links} />
+		</div>
+		<div class="max-w-sm mx-auto">
+			<ToolDescription description={services.etl.description} links={services.etl.links} />
+			<ToolDescription description={services.lookup.description} links={services.lookup.links} />
+			<ToolDescription
+				description={services.packageMetadata.description}
+				links={services.packageMetadata.links}
+			/>
 		</div>
 	</div>
-	<div class="md:invisible visible bg-white h-20 w-full relative">
+	<div class="bg-white h-11 w-full relative">
 		<img class="bottom-0 right-8 absolute" alt="metafacture logo" src="logos/metafacture.png" />
 	</div>
 </section>
