@@ -31,14 +31,6 @@
 				{ href: 'https://metafacture.org/playground/', text: 'metafacture-playground' }
 			]
 		},
-		lookup: {
-			description: 'Lookups in einem System integrieren',
-			links: [
-				{ href: 'https://lobid.org/gnd', text: 'lobid-gnd' },
-				{ href: 'https://lobid.org/resources', text: 'lobid-resources' },
-				{ href: 'https://lobid.org/organisations', text: 'lobid-organisations' }
-			]
-		},
 		packageMetadata: {
 			description: 'Paket-Metadaten zu E-Ressourcen nutzen',
 			links: [{ href: 'https://gokb.org/', text: 'GOKb' }]
@@ -72,7 +64,6 @@
 		</div>
 		<div class="max-w-sm mx-auto">
 			<ToolDescription description={services.etl.description} links={services.etl.links} />
-			<ToolDescription description={services.lookup.description} links={services.lookup.links} />
 			<ToolDescription
 				description={services.packageMetadata.description}
 				links={services.packageMetadata.links}
