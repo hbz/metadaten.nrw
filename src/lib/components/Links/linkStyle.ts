@@ -5,6 +5,8 @@ export const className: string = `
   mb-3
   bg-linkBg
   text-linkText
+  text-[16px]
+  sm:text-[18px]
   underline
   font-bold
   font-robotoMono

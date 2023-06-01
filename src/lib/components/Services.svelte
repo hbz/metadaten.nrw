@@ -20,8 +20,7 @@
 		vocabs: {
 			description: 'Kontrollierte Vokabulare publizieren',
 			links: [
-				{ href: 'https://metafacture.org/', text: 'metafacture' },
-				{ href: 'https://metafacture.org/playground/', text: 'metafacture-playground' }
+				{ href: 'https://skohub.io/', text: 'SkoHub Vocabs' }
 			]
 		},
 		etl: {
