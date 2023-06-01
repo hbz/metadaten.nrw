@@ -6,11 +6,11 @@
 			Unsere Aktivitäten
 		</h1>
 		<div class="flex flex-col text-headlineBlue leading-relaxed font-robotoSlab tracking-[0.08rem]">
-			<div class="flex flex-col mx-[40px] mb-[35px] sm:mb-[55px] basis-1/3 mx-[40px]">
+			<div class="flex flex-col mb-[35px] sm:mb-[55px] basis-1/3">
 				<p>
 					Das <a href="https://www.w3.org/">World Wide Web Consortium</a> (W3C) ist eine im Jahr
 					1989 von Tim Berners-Lee gegründete internationale Mitgliederorganisation, die kooperativ
-					Web- Standards (W3C Recommendations) entwickelt und pflegt. Wir arbeiten insbesondere in
+					Web-Standards (W3C Recommendations) entwickelt und pflegt. Wir arbeiten insbesondere in
 					der
 					<a href="https://www.w3.org/community/reconciliation/"
 						>Entity Reconciliation Community Group</a
@@ -20,7 +20,7 @@
 				</p>
 				<img class="mx-auto mt-[45px] sm:mt-[55px]" alt="nrw logo" src="logos/w3c.png" />
 			</div>
-			<div class="flex flex-col mx-[40px] mb-[35px] sm:mb-[55px] flex-col basis-1/3">
+			<div class="flex flex-col mb-[35px] sm:mb-[55px] flex-col basis-1/3">
 				<p>
 					Die <a href="https://dini.de/">Deutsche Initiative für Netzwerkinformationen e.V.</a> (DINI) unterstützt Absprache und
 					Arbeitsteilung in Bezug auf die Entwicklung von Informationsinfrastrukturen der
@@ -32,10 +32,10 @@
 				</p>
 				<img class="mx-auto mt-[45px] sm:mt-[55px]" alt="nrw logo"	src="logos/dini.png" />
 			</div>
-			<div class="flex flex-col mx-[40px] mb-[35px] sm:mb-[55px] basis-1/3">
+			<div class="flex flex-col mb-[35px] sm:mb-[55px] basis-1/3">
 				<p>
 					Das hbz ist seit Januar 2023 Mitglied in der Dublin Core Metadata Initiative (DCMI), einem
-					offenen intenrationalen Forum für die Enwicklung interoperabler Web-Metadatenstandards.
+					offenen internationalen Forum für die Enwicklung interoperabler Web-Metadatenstandards.
 					Wir beteiligen uns insbesondere in der <a href="https://www.dublincore.org/groups/lrmi/">LRMI-Arbeitsgruppe</a> (Learning Resource Metadata Innovation) und dem <a href="https://www.dublincore.org/groups/governing-board/">DCMI Governing Board</a>.
 				</p>
 				<img class="mx-auto mt-[45px] sm:mt-[55px]" alt="nrw logo" src="logos/dc.png" />
