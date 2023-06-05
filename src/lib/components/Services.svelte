@@ -4,23 +4,23 @@
 		openrefine: {
 			description: 'Metadaten in Tools wie OpenRefine nutzen',
 			links: [
-				{ href: 'https://lobid.org/gnd', text: 'lobid-gnd' },
-				{ href: 'https://skohub.io/', text: 'SkoHub Vocabs' }
+				{ href: 'https://lobid.org/gnd/reconcile', text: 'lobid-gnd' },
+				{ href: 'https://github.com/skohub-io/skohub-reconcile', text: 'SkoHub Vocabs' }
 			]
 		},
 		databases: {
 			description: 'Metadaten für Datenbanken oder Suchindices beziehen',
 			links: [
-				{ href: 'https://lobid.org/gnd', text: 'lobid-gnd' },
-				{ href: 'https://lobid.org/resources', text: 'lobid-resources' },
+				{ href: 'https://lobid.org/gnd/api', text: 'lobid-gnd' },
+				{ href: 'https://lobid.org/resources/api', text: 'lobid-resources' },
 				{ href: 'https://gokb.org/de/index.html', text: 'GOKb' },
-				{ href: 'https://lobid.org/organisations', text: 'lobid-organisations' }
+				{ href: 'https://lobid.org/organisations/api', text: 'lobid-organisations' }
 			]
 		},
 		vocabs: {
 			description: 'Kontrollierte Vokabulare publizieren',
 			links: [
-				{ href: 'https://skohub.io/', text: 'SkoHub Vocabs' }
+				{ href: 'https://skohub.io', text: 'SkoHub Vocabs' }
 			]
 		},
 		etl: {
