@@ -5,7 +5,7 @@
 	export let description: string;
 </script>
 
-<section class="max-w-[330px] mb-[40px]">
+<section class="max-w-[330px] mb-[40px] mx-auto">
 	<p class="text-white mb-[15px] text-lg font-bold font-robotoMono">
 		{description}
 	</p>
