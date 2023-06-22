@@ -13,7 +13,7 @@
 			links: [
 				{ href: 'https://lobid.org/gnd/api', text: 'lobid-gnd' },
 				{ href: 'https://lobid.org/resources/api', text: 'lobid-resources' },
-				{ href: 'https://gokb.org/de/index.html', text: 'GOKb' },
+				{ href: 'https://github.com/openlibraryenvironment/gokb/wiki/API', text: 'GOKb' },
 				{ href: 'https://lobid.org/organisations/api', text: 'lobid-organisations' }
 			]
 		},
@@ -32,7 +32,7 @@
 		},
 		packageMetadata: {
 			description: 'Paket-Metadaten zu E-Ressourcen nutzen',
-			links: [{ href: 'https://gokb.org/', text: 'GOKb' }]
+			links: [{ href: 'https://gokb.org/de/index.html', text: 'GOKb' }]
 		}
 	};
 </script>
