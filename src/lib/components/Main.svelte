@@ -32,7 +32,7 @@
 			<br/>
 			<span>NRW</span>
 		</h1>
-		<div class="md:max-w-[550px] lg:max-w-[650px] xl:max-w-[850px] mx-auto">
+		<div class="md:max-w-[550px] lg:max-w-[650px] xl:max-w-[920px] mx-auto">
 			<p class="hbz-text-shadow text-white sm:text-base md:text-lg lg:text-xl xl:text-2xl mt-2 mb-20 font-robotoMono tracking-[0.035em]">
 				Metadaten.nrw ist ein Wegweiser zu offenen Metadatendiensten
 				des Hochschulbibliothekszentrums NRW (hbz).
