@@ -23,10 +23,14 @@ export default {
     },
     extend: {
       fontFamily: {
+        sans: ['"Open Sans"', 'ui-sans-serif',],
         barlowCondensed: ["Barlow Condensed"],
         robotoMono: ["Roboto Mono"],
         robotoSlab: ["Roboto Slab"],
-      }
+      },
+      backgroundImage: {
+        'gradient-172': 'linear-gradient(172deg, var(--tw-gradient-stops))',
+      },
 
     },
   },

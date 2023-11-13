@@ -1,0 +1,10 @@
+<script>
+  import Lobid from "$lib/components/MetadatenUndAPIs/Lobid/index.svx"
+</script>
+
+## Metadaten und APIs
+
+Unsere Metadatendienste zeichnen sich durch vielfältige Nutzungsmöglichkeiten, Interoperabilität, Qualität und Stabilität aus. Davon profitieren Zehntausende von Nutzenden in Bibliotheken, Forschung, Museen, Archiven und Lehre seit mehr als 10 Jahren.
+
+<Lobid />
+

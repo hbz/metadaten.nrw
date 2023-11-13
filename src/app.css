@@ -30,6 +30,40 @@
     text-decoration: underline;
   }
 
+  .md > h2 {
+    @apply text-[36px];
+    @apply text-[#AF2896];
+    @apply uppercase;
+    @apply text-left;
+  } 
+
+  .md > p {
+    @apply font-light;
+    @apply tracking-wide;
+    @apply text-[14px];
+  }
+
+  .md > blockquote {
+    @apply inline;
+  }
+
+  .md > blockquote > p {
+    @apply font-normal;
+    @apply inline;
+  }
+
+  .md p.quoteAuthor {
+    @apply inline-block;
+    @apply font-normal;
+    @apply mb-[10px];
+  }
+
+  .example-links > a {
+    @appy inline-block;
+    @apply my-2;
+  }
+
+
 }
 
 @layer utilities {

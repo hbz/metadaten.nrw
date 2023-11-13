@@ -1,0 +1,60 @@
+<script>
+	import InternalLink from '$lib/components/Links/InternalLink.svelte';
+	import ExternalLink from '$lib/components/Links/ExternalLink.svelte';
+  import ExampleSelectButton from "$lib/components/ExampleSelectButton.svelte";
+  import ExampleBox from "$lib/components/ExampleBox.svelte";
+  import AuffindbarkeitExamples from "./Praxisbeispiele/Auffindbarkeit_Rechendienste.svx"
+  import GND from "./Praxisbeispiele/GND.svx"
+
+  let selectedExamples = [];
+
+  function handleSelect(id) {
+    selectedExamples.includes(id)
+    ? selectedExamples = selectedExamples.filter(e => e !== id)
+    : selectedExamples = [...selectedExamples, id]
+  }
+
+  $: console.log(selectedExamples)
+
+</script>
+
+## Lobid
+
+> "Von der Durchsuchbarkeit, Verfügbarkeit und Nachnutzbarkeit hat kein GND-Service im bibliothekarischen Alltag jenes Standing, welches lobid geniesst."
+
+<p class="quoteAuthor">Mfchris84, Wikipedia</p>
+
+lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets bieten. 
+Die Gemeinsame Normdatei (lobid-gnd), die NRW-Verbunddaten (lobid-resources) und die 
+Organisationsdaten aus dem Sigelverzeichnis sowie der Deutschen 
+Bibliotheksstatistik (DBS) (lobid-organisations). Sie werden als leicht 
+nutzbare, strukturierte Daten über offene Webschnittstellen angeboten. 
+Insbesondere für die GND-Normdaten ermöglicht die Bereitstellung einer 
+Reconciliation-Schnittstelle auch den Datenabgleich in Datenanwendungen  wie OpenRefine oder Cocoda.
+
+<div class="mt-[50px]">
+<InternalLink href="#lobid.praxisbeispiele" text="Praxisbeispiele" /> 
+<ExternalLink href="#lobid.praxisbeispiele" text="Zur Webseite" /> 
+<ExternalLink href="#lobid.praxisbeispiele" text="Zum Blog" />
+<ExternalLink href="#lobid.praxisbeispiele" text="Workshops" />
+<ExternalLink href="#lobid.praxisbeispiele" text="Zum Forum" />
+</div>
+
+Haben Sie Fragen oder möchten sich beraten lassen? Besuchen Sie das Forum **metadaten.community**.
+
+## Praxisbeispiele
+
+<ExampleSelectButton on:select={() => handleSelect("lobid-gnd")} text="lobid-gnd" />
+<ExampleSelectButton on:select={() => handleSelect("lobid-resources")} text="lobid-resources" />
+<ExampleSelectButton on:select={() => handleSelect("lobid-organisations")} text="lobid-organisations" />
+
+
+<ExampleBox title="Auffindbarkeit in Recherchediensten verbessern mit der GND" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
+<AuffindbarkeitExamples />
+</ExampleBox>
+
+<ExampleBox title="Die GND in OpenRefine nutzen" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
+<AuffindbarkeitExamples />
+</ExampleBox>
+
+
