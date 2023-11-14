@@ -4,8 +4,7 @@
 
 <section class="flex flex-col justify-center text-center overflow-hidden">
 	<div class="relative flex flex-col">
-		<!-- <img alt="metadaten nrw background" class="absolute" src="metadaten-nrw-hoch-2.png" /> -->
-		<img alt="metadaten nrw" class="mx-auto opacity-100" src="metadaten-nrw-quer-w-2.png" />
+		<img alt="metadaten nrw" class="mx-auto" src="metadaten-nrw-quer-w.png" />
 		<img class="w-[106px] ml-[32px] z-10" alt="hbz logo" src="logos/hbz.png" />
 	</div>
 	<p

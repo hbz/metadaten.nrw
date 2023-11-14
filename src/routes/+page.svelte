@@ -34,6 +34,12 @@
 </script>
 
 <div class="relative flex flex-col">
+	<img
+		alt="metadaten nrw background"
+		class="absolute opacity-20 -left-24 -top-32 sm:scale-50 sm:-top-96"
+		src="metadaten-nrw-hoch-w-cropped.png"
+	/>
+
 	<button
 		class="hidden w-9 h-9 bg-white fixed bottom-2 right-2 rounded-full border-2 border-fuchsia-700 border-opacity-70 items-center justify-center"
 		on:click={() => topFunction()}

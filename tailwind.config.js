@@ -29,7 +29,9 @@ export default {
         robotoSlab: ["Roboto Slab"],
       },
       backgroundImage: {
+        'gradient-114': 'linear-gradient(114deg, var(--tw-gradient-stops))',
         'gradient-172': 'linear-gradient(172deg, var(--tw-gradient-stops))',
+
       },
 
     },
