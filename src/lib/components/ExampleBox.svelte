@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let title: string;
-	export let selected: boolean;
+	export let selected: boolean = true;
 	let expanded: boolean = false;
 
 	$: console.log(selected);

@@ -1,8 +1,10 @@
 <script lang="ts">
-	import { className } from './linkStyle';
+	import { classNameBg } from './linkStyle';
+	import { classNameNoBg } from './linkStyle';
 
 	export let text: string;
 	export let href: string;
+	export let fillBackground: boolean = true;
 
 	function scrollIntoView(event: MouseEvent) {
 		const target = event.target as HTMLAnchorElement;
@@ -14,4 +16,4 @@
 	}
 </script>
 
-<a {href} on:click={scrollIntoView} class={className}>{text}</a>
+<a {href} on:click={scrollIntoView} class={fillBackground ? classNameBg : classNameNoBg}>{text}</a>

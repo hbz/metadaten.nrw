@@ -1,0 +1,66 @@
+<script>
+	import InternalLink from '$lib/components/Links/InternalLink.svelte';
+	import ExternalLink from '$lib/components/Links/ExternalLink.svelte';
+  import ExampleSelectButton from "$lib/components/ExampleSelectButton.svelte";
+  import ExampleBox from "$lib/components/ExampleBox.svelte";
+  import ForumHint from "$lib/components/ForumHint.svelte";
+  import AuffindbarkeitExamples from "./Praxisbeispiele/Auffindbarkeit_Rechendienste.svx"
+  import GND from "./Praxisbeispiele/GND.svx"
+  import Logo from "$lib/components/Logo.svelte"
+
+  let selectedExamples = [];
+
+  function handleSelect(id) {
+    selectedExamples.includes(id)
+    ? selectedExamples = selectedExamples.filter(e => e !== id)
+    : selectedExamples = [...selectedExamples, id]
+  }
+
+  $: console.log(selectedExamples)
+
+</script>
+
+<Logo path="logos/oersi.png" />
+
+> "Die plattformübergreifende Listung unserer Lernressourcen durch OERSI trägt dank erhöhter Auffindbarkeit und Nachnutzung zur Verbesserung der Lehrkräfteaus- und -fortbildung bei."
+
+<p class="quoteAuthor">Manuel Oellers, COMEIN</p>
+
+OERSI ist ein länderübergreifendes Rechercheportal für offene Bildungs-ressourcen (Open Educational Resources)  im Hochschulbereich, das  wir kooperativ mit der Technischen Informationsbibliothek (TIB) entwickeln.
+
+<br />
+
+OERSI sammelt die Metadaten von  OER-Repositorien ein, wandelt sie nach Linked Open Usable Data um und stellt sie zur freien Nutzung und Recherche zur Verfügung. Umgekehrt kann OERSI in bibliothekarische Recherchedienste zur Erweiterung des Suchangebots integriert werden. 
+
+<br />
+
+Wenn auch Sie von mehr Sichtbarkeit  für Ihre Bildungsressourcen profitieren oder sich dazu informieren möchten, besuchen Sie gerne das Forum.
+
+
+<div class="mt-[50px] mb-[50px]">
+<InternalLink fillBackground={false} href="#oersi.praxisbeispiele" text="Praxisbeispiele" /> 
+<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zur Webseite" /> 
+<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zum Blog" />
+<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Workshops" />
+<ExternalLink fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
+<ForumHint />
+</div>
+
+
+<div id="oersi.praxisbeispiele">
+
+## Praxisbeispiele
+
+</div>
+
+<ExampleBox title="Nutzung von lobid-resources für Recherdienste in Bibliotheken">
+<AuffindbarkeitExamples />
+</ExampleBox>
+
+<ExampleBox title="Nutzung von lobid-resources für Recherchedienste in Bibliotheken">
+<GND />
+</ExampleBox>
+
+<ExampleBox title="Nutzung von lobid-resources für Recherechedienste in Bibliotheken">
+<GND />
+</ExampleBox>

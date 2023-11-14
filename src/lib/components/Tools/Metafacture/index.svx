@@ -20,22 +20,24 @@
 
 </script>
 
-<Logo path="logos/lobid.png" />
+<Logo path="logos/metafacture.png" />
 
-> "Von der Durchsuchbarkeit, Verfügbarkeit und Nachnutzbarkeit hat kein GND-Service im bibliothekarischen Alltag jenes Standing, welches lobid geniesst."
+> "TODO"
 
-<p class="quoteAuthor">Mfchris84, Wikipedia</p>
+<p class="quoteAuthor">Hans Georg</p>
 
-lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets bieten. 
-Die Gemeinsame Normdatei (lobid-gnd), die NRW-Verbunddaten (lobid-resources) und die 
-Organisationsdaten aus dem Sigelverzeichnis sowie der Deutschen 
-Bibliotheksstatistik (DBS) (lobid-organisations). Sie werden als leicht 
-nutzbare, strukturierte Daten über offene Webschnittstellen angeboten. 
-Insbesondere für die GND-Normdaten ermöglicht die Bereitstellung einer 
-Reconciliation-Schnittstelle auch den Datenabgleich in Datenanwendungen  wie OpenRefine oder Cocoda.
+metafacture ist ein auf bibliographische Metadaten spezialisiertes Toolkit für Datenprozesse. Ursprünglich wurde es von der DNB im Rahmen von CultureGraph entwickelt, 2019 hat das hbz die Maintainerschaft übernommen.
+
+<br />
+
+metafacture erlaubt das performante Handling von Metadaten auch im großen Stil. Es bietet sich etwa für den automatisierten Bezug und die Aufbereitung von Fremddaten an oder für das Management von Daten während einer Systemmigration. Ziel ist es, der Fachebene ein Tool an die Hand zu geben, Datentransformationen selbstständig umzusetzen und die Bib-IT zu entlasten.
+
+<br />
+
+Mit dem eigens entwickelten  metafacture-Playground können Datenprozesse im Webbrowser erlernt, konzipiert, getestet und geteilt werden.
 
 <div class="mt-[50px] mb-[50px]">
-<InternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Praxisbeispiele" /> 
+<InternalLink fillBackground={false} href="#metafacture.praxisbeispiele" text="Praxisbeispiele" /> 
 <ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zur Webseite" /> 
 <ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zum Blog" />
 <ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Workshops" />
@@ -43,15 +45,14 @@ Reconciliation-Schnittstelle auch den Datenabgleich in Datenanwendungen  wie O
 <ForumHint />
 </div>
 
-<div id="lobid.praxisbeispiele">
+<div id="metafacture.praxisbeispiele">
 
 ## Praxisbeispiele
 
 </div>
 
-<ExampleSelectButton on:select={() => handleSelect("lobid-gnd")} text="lobid-gnd" />
-<ExampleSelectButton on:select={() => handleSelect("lobid-resources")} text="lobid-resources" />
-<ExampleSelectButton on:select={() => handleSelect("lobid-organisations")} text="lobid-organisations" />
+<ExampleSelectButton on:select={() => handleSelect("metafacture")} text="metafacture" />
+<ExampleSelectButton on:select={() => handleSelect("metafacture playground")} text="metafacture playground" />
 
 
 <ExampleBox title="Auffindbarkeit in Recherchediensten verbessern mit der GND" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>

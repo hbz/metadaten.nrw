@@ -24,11 +24,11 @@
 		Metadaten.nrw ist ein W egweiser für offene Metadatendienste des
 		Hochschulbibliotheks&shy; zentrums NRW (hbz).
 	</p>
-	<div class="flex flex-col w-full mt-[44px] max-w-sm mx-auto justify-center">
-		<InternalLink href="#metadata" text="Metadaten und APIs" />
-		<InternalLink href="#activities" text="Tools" />
-		<InternalLink href="#activities" text="Offene Standards" />
-		<InternalLink href="#activities" text="Workshops" />
-		<InternalLink href="#activities" text="Über uns" />
+	<div class="flex flex-col w-full mt-[44px] max-w-sm mx-auto justify-center mb-[70px]">
+		<InternalLink href="#metadaten" text="Metadaten und APIs" />
+		<InternalLink href="#tools" text="Tools" />
+		<InternalLink href="#offeneStandards" text="Offene Standards" />
+		<InternalLink href="/workshops" text="Workshops" />
+		<InternalLink href="#about" text="Über uns" />
 	</div>
 </section>

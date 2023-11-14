@@ -1,0 +1,3 @@
+## Über uns
+
+Wir — das ist die Gruppe Metadaten-infrastruktur des Hochschulbibliotheks-zentrums NRW (hbz). Im Laufe unserer Geschichte haben wir uns die Bereit-stellung offener und webkonformer Metadaten zur Aufgabe gemacht, entwickeln und pflegen Free and Open Source Software (FOSS) und beteiligen uns an der community-basierten Entwicklung offener Standards.

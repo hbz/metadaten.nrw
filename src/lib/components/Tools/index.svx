@@ -1,0 +1,11 @@
+<script>
+  import Metafacture from "$lib/components/Tools/Metafacture/index.svx"
+  import SkoHub from "$lib/components/Tools/SkoHub/index.svx"
+</script>
+
+## Tools
+
+Wir legen Wert auf Free and Open Source-Software (FOSS). Nicht nur können die von uns betreuten Tools frei verändert werden, auch ihre Nutzung ist kostenlos. Die Entwicklung erfolgt gemeinsam mit der Community transparent und offen im Web. So können wir gezielt auf die Bedürfnisse und das Feedback der Nutzenden eingehen. 
+
+<Metafacture />
+<SkoHub />

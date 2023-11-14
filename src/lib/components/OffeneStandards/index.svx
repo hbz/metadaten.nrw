@@ -1,0 +1,42 @@
+<script>
+	import ExternalLink from '$lib/components/Links/ExternalLink.svelte';
+  import ForumHint from "$lib/components/ForumHint.svelte";
+</script>
+
+## Offene Standards
+
+Offene Standards sind Grundlage für  die maximale Nutzbarkeit von Metadaten. Die Bibliothekswelt hat mit MARC21 früh an gemeinsamen domänenspezifischen Standards gearbeitet. Mit Bibframe wurde der Weg zu webkonformen Standards eingeschlagen.  Wir setzen seit langem auf domänen-übergreifende Webstandards, um wartungsarme und zukunftsfähige Anwendungen zu ermöglichen.
+
+<br />
+
+### Standards Made by Community
+
+<br />
+
+Offene Standards bauen auf der community-gestützten Entwicklung auf. Eine gemeinschaftlich umgesetzte Standardisierung ist Voraussetzung, um eine breite Nutzung und Akzeptanz zu erreichen, um Interoperabilität zu fördern und Silos zu vermeiden.
+
+Wir engagieren uns im Kontext des Kompetenzzentrums Interoperable Metadaten (DINI AG KIM), des World Wide Web Consortiums (W3C) und der Dublin Core Metadata Initiative (DCMI) für die gemeinsame Entwicklung und Pflege von standardisierten Metadaten und Protokollen.
+
+<br />
+
+### Linked Open  Usable Data
+
+<br />
+
+Offenheit bedeutet für uns insbesondere die Bereitstellung webkonformer Metadaten. JSON ist leichtgewichtig, als Datenformat im Web unangefochten und für Webentwickler:innen leicht nutzbar. Mit JSON-LD werden JSON-Daten gleichzeitig zu Linked Data und durch ihre leichte Nutzbarkeit zu Linked Open Usabel Data (LOUD).
+
+<br />
+
+### Offene Datenmodelle  & Protokolle
+
+<br />
+
+In der DINI AG KIM haben wir maßgeblich an der Spezifikation des Allgemeinen Metadatenprofils für Bildungsressourcen (AMB) mitgewirkt, das die strukturierte Beschreibung von Lehr- und Lernressourcen im Web unterstützt.
+
+Beim W3C arbeiten wir mit an der Standardisierung der Reconciliation Service API zum Abgleich verschiedener Datenquellen. Das Protokoll wird schon jetzt durch viele Datenquellen und Anwendungen unterstützt.
+
+<div class="mt-[50px] mb-[50px]">
+<ExternalLink fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
+<ForumHint />
+</div>
+
