@@ -2,7 +2,6 @@ const className: string = `
   pt-[12px] 
   pb-[9px]
   mb-3
-  mx-3
   font-semibold 
   text-[16px]
   rounded-lg
