@@ -2,7 +2,6 @@
 	import ExampleSelectButton from '$lib/components/ExampleSelectButton.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Workshop from '$lib/components/Workshop.svelte';
-	import { each } from 'svelte/internal';
 
 	let selectedExamples: string[] = [];
 
