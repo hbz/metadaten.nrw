@@ -33,11 +33,13 @@
 		class="w-full flex flex-col items-center h-[142px] bg-gradient-114 from-[#AF2896] from-[48.29%] to-[#004678] to-[109.74%]"
 	>
 		<div class="flex w-full h-full max-w-sm justify-between">
-			<img
-				alt="metadaten nrw"
-				class="object-contain h-full pl-[30px] pt-[23px] pb-[30px]"
-				src="metadaten-nrw-hoch-w-cropped.png"
-			/>
+			<a href="/">
+				<img
+					alt="metadaten nrw"
+					class="object-contain h-full pl-[30px] pt-[23px] pb-[30px]"
+					src="metadaten-nrw-hoch-w-cropped.png"
+				/>
+			</a>
 			<img
 				alt="metadaten nrw"
 				class="object-contain h-full ml-auto mr-[30px] pt-[23px] pb-[30px]"
