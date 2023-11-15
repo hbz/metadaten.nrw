@@ -32,7 +32,7 @@
 			>Webseite</a
 		>
 		<a
-			class="no-underline inline-block px-[15px] bg-sky-900 text-white py-[9px] bg-white rounded-3xl shadow border text-fuchsia-700 font-semibold"
+			class="no-underline inline-block px-[15px] bg-sky-900 text-white py-[9px] bg-sky-900 rounded-3xl shadow border font-semibold"
 			>Zur Registrierung</a
 		>
 	</div>

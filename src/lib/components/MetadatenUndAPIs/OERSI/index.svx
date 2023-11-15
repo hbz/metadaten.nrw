@@ -15,9 +15,6 @@
     ? selectedExamples = selectedExamples.filter(e => e !== id)
     : selectedExamples = [...selectedExamples, id]
   }
-
-  $: console.log(selectedExamples)
-
 </script>
 
 <Logo path="logos/oersi.png" />

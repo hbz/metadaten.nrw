@@ -16,8 +16,6 @@
     : selectedExamples = [...selectedExamples, id]
   }
 
-  $: console.log(selectedExamples)
-
 </script>
 
 <Logo path="logos/skohub.png" />

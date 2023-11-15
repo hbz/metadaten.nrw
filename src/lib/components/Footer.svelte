@@ -8,4 +8,9 @@
 		<a class="underline" href="https://www.hbz-nrw.de/impressum">IMPRESSUM</a>
 	</div>
 	<img class="mt-[50px]" alt="nrw logo" src="logos/nrw.png" />
+	<div
+		class="absolute -right-16 bottom-0 w-32 h-52 bg-gradient-to-b from-fuchsia-700 to-sky-800 rounded-tl-2xl"
+	>
+		<img class="w-[94px] object-contain my-[23px] ml-[21px]" src="metadaten-nrw-hoch-w.png" />
+	</div>
 </div>
