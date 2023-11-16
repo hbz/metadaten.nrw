@@ -41,7 +41,7 @@
 	/>
 
 	<button
-		class="hidden w-9 h-9 bg-white fixed bottom-2 right-2 rounded-full border-2 border-fuchsia-700 border-opacity-70 items-center justify-center"
+		class="hidden w-9 h-9 z-10 bg-white fixed bottom-2 right-2 rounded-full border-2 border-fuchsia-700 border-opacity-70 items-center justify-center"
 		on:click={() => topFunction()}
 		id="myBtn"
 		title="Go to top"><ArrowUp /></button
@@ -52,22 +52,23 @@
 		<div class="max-w-sm mx-[30px]">
 			<Main />
 		</div>
-		<div class="max-w-sm mx-[30px]">
+		<div class="max-w-sm">
 			<div id="metadata">
-				<div class="md" id="metadaten">
+				<div class="md mx-[30px]" id="metadaten">
 					<MetadatenUndApis />
 				</div>
-				<div class="md mt-[40px]" id="tools">
+				<div class="md mt-[40px] mx-[30px]" id="tools">
 					<Tools />
 				</div>
-				<div class="md mt-[40px]" id="offeneStandards">
+				<div class="md mt-[40px] mx-[30px]" id="offeneStandards">
 					<OffeneStandards id="offeneStandards" />
 				</div>
-				<div class="md" id="about">
+				<div class="md mx-[30px]" id="about">
 					<About id="about" />
 				</div>
 			</div>
 			<Footer />
 		</div>
 	</div>
+	<div />
 </div>
