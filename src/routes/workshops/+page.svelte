@@ -27,7 +27,7 @@
 	];
 </script>
 
-<div class="flex flex-col md:max-w-lg max-w-sm mx-auto">
+<div class="flex flex-col md:max-w-lg w-full mx-auto">
 	<div
 		class="w-full flex flex-col items-center h-[142px] bg-gradient-114 from-[#AF2896] from-[48.29%] to-[#004678] to-[109.74%]"
 	>
