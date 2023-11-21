@@ -48,9 +48,10 @@ Mit dem eigens entwickelten  metafacture-Playground können Datenprozesse im Web
 
 </div>
 
+<div class="flex flex-wrap mx-auto w-80">
 <ExampleSelectButton on:select={() => handleSelect("metafacture")} text="metafacture" />
 <ExampleSelectButton on:select={() => handleSelect("metafacture playground")} text="metafacture playground" />
-
+</div>
 
 <ExampleBox title="Auffindbarkeit in Recherchediensten verbessern mit der GND" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
 <AuffindbarkeitExamples />

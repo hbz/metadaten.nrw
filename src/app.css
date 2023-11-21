@@ -35,7 +35,8 @@
     @apply text-[#AF2896];
     @apply uppercase;
     @apply text-left;
-    @apply mb-[50px];
+    @apply mb-[20px];
+    @apply md:text-center;
   } 
 
   .md h2:not(:first-of-type) {
@@ -47,6 +48,7 @@
     @apply text-[#AF2896];
     @apply uppercase;
     @apply text-left;
+    @apply md:text-center;
   } 
 
   .md > p {

@@ -46,9 +46,11 @@ Reconciliation-Schnittstelle auch den Datenabgleich in Datenanwendungen  wie O
 
 </div>
 
+<div class="flex flex-wrap mx-auto w-80">
 <ExampleSelectButton on:select={() => handleSelect("lobid-gnd")} text="lobid-gnd" />
 <ExampleSelectButton on:select={() => handleSelect("lobid-resources")} text="lobid-resources" />
 <ExampleSelectButton on:select={() => handleSelect("lobid-organisations")} text="lobid-organisations" />
+</div>
 
 <ExampleBox title="Auffindbarkeit in Recherchediensten verbessern mit der GND" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
 <AuffindbarkeitExamples />

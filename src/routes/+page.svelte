@@ -49,10 +49,10 @@
 	<div
 		class="flex flex-col items-center w-screen bg-gradient-172 from-[#af2896e6] from-[4.5%] via-[#004678cf] via-[5.5%] via-[#0046788e] via-[7.2%] to-[#ffffffe6] to-[8.3%]"
 	>
-		<div class="max-w-sm mx-[30px]">
+		<div class="max-w-sm md:max-w-md mx-[30px]">
 			<Main />
 		</div>
-		<div class="max-w-sm">
+		<div class="max-w-sm md:max-w-lg">
 			<div id="metadata">
 				<div class="md mx-[30px]" id="metadaten">
 					<MetadatenUndApis />

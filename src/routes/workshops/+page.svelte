@@ -27,11 +27,11 @@
 	];
 </script>
 
-<div class="flex flex-col items-center">
+<div class="flex flex-col md:max-w-lg max-w-sm mx-auto">
 	<div
 		class="w-full flex flex-col items-center h-[142px] bg-gradient-114 from-[#AF2896] from-[48.29%] to-[#004678] to-[109.74%]"
 	>
-		<div class="flex w-full h-full max-w-sm justify-between">
+		<div class="flex w-full h-full justify-between">
 			<a href="/">
 				<img
 					alt="metadaten nrw"
@@ -46,12 +46,10 @@
 			/>
 		</div>
 	</div>
-	<div class="max-w-sm flex flex-col items-center">
-		<h2 class="w-56 h-14 mt-[30px] text-sky-900 text-4xl uppercase tracking-wide">Workshops</h2>
+	<div class="flex flex-col items-center">
+		<h2 class="h-14 mt-[30px] text-sky-900 text-4xl uppercase tracking-wide">Workshops</h2>
 
-		<p
-			class="w-80 text-cyan-950 mx-[30px] text-sm font-light font-['Open Sans'] leading-normal tracking-wider"
-		>
+		<p class="text-cyan-950 mx-[30px] text-sm font-light leading-normal tracking-wider">
 			Wir bieten Workshops auf Konferenzen an oder auch im Rahmen der Weiter-bildungsangebote des
 			ZBIW. Die Kurse am ZBIW sind für Angehörige von NRW Verbundbibliotheken und Hochschulen
 			kostenlos. Sollten Sie Interesse an einem Workshop haben, der nicht in der Liste ist, können
@@ -76,6 +74,6 @@
 		{#each workshops as workshop}
 			<Workshop {...workshop} />
 		{/each}
-		<Footer />
 	</div>
+	<Footer />
 </div>

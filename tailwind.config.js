@@ -14,9 +14,6 @@ export default {
     colors: {
       ...colors,
       gray: colors.neutral,
-      hbzorange: "#F5821F",
-      headlineBlue: "#192271",
-      customBlueBg: "#1D2DB9",
       linkBg: "#192271",
       linkText: "#74EE71",
       activitesBg: "#EDEDED"
@@ -24,9 +21,6 @@ export default {
     extend: {
       fontFamily: {
         sans: ['"Open Sans"', 'ui-sans-serif',],
-        barlowCondensed: ["Barlow Condensed"],
-        robotoMono: ["Roboto Mono"],
-        robotoSlab: ["Roboto Slab"],
       },
       backgroundImage: {
         'gradient-114': 'linear-gradient(114deg, var(--tw-gradient-stops))',
