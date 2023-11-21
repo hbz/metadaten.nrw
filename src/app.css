@@ -3,29 +3,43 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-		font-family: 'Barlow Condensed';
-		src: local('Barlow Condensed'), local('Barlow-Condensed'), local('barlow condensed'), local('barlow-condensed'),
-			url('/fonts/BarlowCondensed-Medium.ttf');
-		font-weight: medium;
-		font-display: swap;
-	}
+/* open-sans-300 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/fonts/open-sans-v35-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+  
+/* open-sans-400 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/OpenSans-Regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
 
-  @font-face {
-		font-family: 'Roboto Mono';
-		src: local('Roboto Mono'), local('Roboto-Mono'), local('roboto mono'), local('roboto-mono'),
-			url('/fonts/RobotoMono-Medium.ttf');
-		font-weight: medium;
-		font-display: swap;
-	}
 
-  @font-face {
-		font-family: 'Roboto Slab';
-		src: local('Roboto Slab'), local('Roboto-Slab'), local('roboto slab'), local('roboto-slab'),
-			url('/fonts/RobotoSlab-Bold.ttf');
-		font-weight: bold;
-		font-display: swap;
-	}
+/* open-sans-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/OpenSans-Semibold.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+/* open-sans-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/open-sans-v35-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
   a {
     text-decoration: underline;
   }
@@ -35,6 +49,7 @@
     @apply text-[#AF2896];
     @apply uppercase;
     @apply text-left;
+    @apply font-normal;
     @apply mb-[20px];
     @apply md:text-center;
   } 
