@@ -4,8 +4,7 @@
   import ExampleSelectButton from "$lib/components/ExampleSelectButton.svelte";
   import ExampleBox from "$lib/components/ExampleBox.svelte";
   import ForumHint from "$lib/components/ForumHint.svelte";
-  import AuffindbarkeitExamples from "./Praxisbeispiele/Auffindbarkeit_Rechendienste.svx"
-  import GND from "./Praxisbeispiele/GND.svx"
+  import OERSI from "./Praxisbeispiele/oersi.svx"
   import Logo from "$lib/components/Logo.svelte"
 
   let selectedExamples = [];
@@ -51,13 +50,11 @@ Wenn auch Sie von mehr Sichtbarkeit  für Ihre Bildungsressourcen profitieren 
 </div>
 
 <ExampleBox title="Nutzung von lobid-resources für Recherdienste in Bibliotheken">
-<AuffindbarkeitExamples />
+<OERSI />
 </ExampleBox>
 
 <ExampleBox title="Nutzung von lobid-resources für Recherchedienste in Bibliotheken">
-<GND />
 </ExampleBox>
 
 <ExampleBox title="Nutzung von lobid-resources für Recherechedienste in Bibliotheken">
-<GND />
 </ExampleBox>

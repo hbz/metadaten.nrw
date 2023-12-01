@@ -13,7 +13,9 @@
 		{title}
 	</p>
 	{#if expanded}
-		<div class="example-links text-sky-900 text-base font-normal underline leading-normal block">
+		<div
+			class="example-links mx-[20px] flex flex-col text-sky-900 text-base font-normal underline leading-normal block"
+		>
 			<slot />
 		</div>
 	{/if}

@@ -87,9 +87,9 @@
     @apply mb-[10px];
   }
 
-  .example-links > a {
+  .example-links li {
     @appy inline-block;
-    @apply my-2;
+    @apply my-[10px];
   }
 
 
