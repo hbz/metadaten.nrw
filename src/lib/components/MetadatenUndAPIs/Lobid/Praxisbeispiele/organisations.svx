@@ -1,0 +1,2 @@
+- [Geodaten zur Anzeige der Verbundbibliothekenkarte auf der hbz-Seite](https://www.hbz-nrw.de/produkte/verbunddienstleistungen/verbundbibliotheken)
+- [VZG-Standortverzeichnis von Bibliotheken mit weiterführenden Informationen](https://uri.gbv.de/organization/isil/DE-46)

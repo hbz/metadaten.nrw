@@ -1,0 +1,5 @@
+- [Publikation eines kontrollierten Vokabulars mit SkoHub Vocabs](https://codeberg.org/acka47/malis/src/branch/main/pages/praxisprojekt.md#orientierungshilfen)
+- [Einführung in SKOS am Beispiel von Open Educational Resources](https://dini-ag-kim.github.io/skos-einfuehrung/#/)
+- [Building and Deploying a Classification Schema using Open Standards and Technology (eng)](https://doi.org/10.21825/dlh.85751)
+- [Harmonizing OER metadata in ETL processes with SkoHub in the project "WirLernenOnline" (eng)](https://dl.gi.de/server/api/core/bitstreams/d89c920c-d130-400d-bc78-db37b01e168b/content) - vgl. auch das dazugehörige [Poster](https://data.goettingen-research-online.de/file.xhtml?persistentId=doi:10.25625/8MZSWB/OSTNPG)
+

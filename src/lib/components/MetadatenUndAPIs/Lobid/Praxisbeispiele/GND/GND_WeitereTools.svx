@@ -1,0 +1,6 @@
+- [Lookup für GND-Entitäten in DSpace auf Basis von lobid](https://www.slideshare.net/pascalbecker/integration-der-gemeinsamen-normdatei-in-dspace-auf-basis-von-lobid)
+- Katalogisieren mit [Alma-Plugin](https://developers.exlibrisgroup.com/appcenter/alma-refine/) oder [Firefox-Add-on](https://addons.mozilla.org/de/firefox/addon/tu-lama/)
+- [GND-Autoren- und Schlagwortplugins für OJS und OMP zur Nachnutzung von OA-Publikationen im Verbundkatalog der WLB Stuttgart](https://www.o-bib.de/bib/article/view/5863)
+- Kulturgüter digitalisieren mit [Kitodo](https://www.kitodo.org/)
+- Digitale Editionen erstellen mit dem [TEI Publisher](https://teipublisher.com/exist/apps/tei-publisher/documentation?action=search&root=3.42.10&view=div&odd=docbook.odd) / [correspSearch](https://dhd-blog.org/?p=10632)
+- [Normdaten mappen](https://av.tib.eu/media/36465) mit [Cocoda](https://coli-conc.gbv.de/)
