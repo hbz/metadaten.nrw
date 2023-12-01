@@ -59,11 +59,14 @@
   } 
 
   .md h3 {
-    @apply text-[20px];
+    @apply text-2xl;
     @apply text-[#AF2896];
     @apply uppercase;
     @apply text-left;
     @apply md:text-center;
+    @apply mt-[70px];
+    @apply mb-[30px];
+    @apply tracking-wide;
   } 
 
   .md > p {

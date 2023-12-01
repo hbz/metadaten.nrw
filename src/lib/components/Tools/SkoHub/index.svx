@@ -42,7 +42,7 @@ Mit SkoHub publizierte Vokabulare folgen dem W3C-Standard Simple Knowledge Organ
 
 <div id="skohub.praxisbeispiele">
 
-## Praxisbeispiele
+### Praxisbeispiele
 
 </div>
 

@@ -44,7 +44,7 @@ Mit dem eigens entwickelten  metafacture-Playground können Datenprozesse im Web
 
 <div id="metafacture.praxisbeispiele">
 
-## Praxisbeispiele
+### Praxisbeispiele
 
 </div>
 

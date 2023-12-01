@@ -1,11 +1,13 @@
 const className: string = `
-  pt-[12px] 
-  pb-[9px]
+  flex
+  justify-center
+  items-center
   mb-3
+  h-9
+  my-auto
   font-semibold 
-  text-[16px]
   rounded-lg
-  shadow-xl
+  shadow
   cursor-pointer
   block
   tracking-[0.09em]

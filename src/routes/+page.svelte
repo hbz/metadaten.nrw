@@ -47,7 +47,7 @@
 		title="Go to top"><ArrowUp /></button
 	>
 	<div
-		class="flex flex-col items-center w-screen bg-gradient-172 from-[#af2896e6] from-[4.5%] via-[#004678cf] via-[5.5%] via-[#0046788e] via-[7.2%] to-[#ffffffe6] to-[8.3%]"
+		class="flex flex-col items-center w-screen bg-gradient-172 from-[#af2896e6] from-[4.5%] via-[#004678cf] via-[5.5%] via-[#0046788e] via-[6.7%] to-[#ffffffe6] to-[7.8%]"
 	>
 		<div class="max-w-sm md:max-w-md mx-[30px]">
 			<Main />

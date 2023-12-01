@@ -46,7 +46,7 @@ Wenn auch Sie von mehr Sichtbarkeit  für Ihre Bildungsressourcen profitieren 
 
 <div id="oersi.praxisbeispiele">
 
-## Praxisbeispiele
+### Praxisbeispiele
 
 </div>
 

@@ -42,7 +42,7 @@ Reconciliation-Schnittstelle auch den Datenabgleich in Datenanwendungen  wie O
 
 <div id="lobid.praxisbeispiele">
 
-## Praxisbeispiele
+### Praxisbeispiele
 
 </div>
 
