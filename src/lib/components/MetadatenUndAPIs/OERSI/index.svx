@@ -22,15 +22,15 @@
 
 <p class="quoteAuthor">Manuel Oellers, COMEIN</p>
 
-OERSI ist ein länderübergreifendes Rechercheportal für offene Bildungs-ressourcen (Open Educational Resources)  im Hochschulbereich, das  wir kooperativ mit der Technischen Informationsbibliothek (TIB) entwickeln.
+OERSI ist ein länderübergreifendes Rechercheportal für offene Bildungsressourcen (Open Educational Resources) im Hochschulbereich, das wir kooperativ mit der Technischen Informationsbibliothek (TIB) entwickeln.
 
 <br />
 
-OERSI sammelt die Metadaten von  OER-Repositorien ein, wandelt sie nach Linked Open Usable Data um und stellt sie zur freien Nutzung und Recherche zur Verfügung. Umgekehrt kann OERSI in bibliothekarische Recherchedienste zur Erweiterung des Suchangebots integriert werden. 
+OERSI sammelt die Metadaten von OER-Repositorien ein, wandelt sie nach Linked Open Usable Data um und stellt sie zur freien Nutzung und Recherche zur Verfügung. Umgekehrt kann OERSI in bibliothekarische Recherchedienste zur Erweiterung des Suchangebots integriert werden. 
 
 <br />
 
-Wenn auch Sie von mehr Sichtbarkeit  für Ihre Bildungsressourcen profitieren oder sich dazu informieren möchten, besuchen Sie gerne das Forum.
+Wenn auch Sie von mehr Sichtbarkeit für Ihre Bildungsressourcen profitieren oder sich dazu informieren möchten, besuchen Sie gerne das Forum.
 
 
 <div class="mt-[50px] mb-[50px]">

@@ -23,7 +23,7 @@
 
 <p class="quoteAuthor">Andreas Wagner, hbz</p>
 
-SkoHub stellt Infrastruktur und Software zum kollaborativen Erstellen und Publi-zieren von kontrollierten Vokabularen im Web bereit. Vokabulare können gemein-sam auf einer Entwicklungsplattform wie GitHub entwickelt, versioniert, und z.B. mit GitHub Pages auf SkoHub Vocabs veröffentlicht werden. Einmal publizierte Vokabulare können auch in Anwendungen von Drittanbietern – wie OpenRefine oder Cocoda – verwendet werden.
+SkoHub stellt Infrastruktur und Software zum kollaborativen Erstellen und Publizieren von kontrollierten Vokabularen im Web bereit. Vokabulare können gemeinsam auf einer Entwicklungsplattform wie GitHub entwickelt, versioniert, und z.B. mit GitHub Pages auf SkoHub Vocabs veröffentlicht werden. Einmal publizierte Vokabulare können auch in Anwendungen von Drittanbietern — wie OpenRefine oder Cocoda — verwendet werden.
 
 <br />
 
