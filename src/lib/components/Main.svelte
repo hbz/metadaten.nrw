@@ -17,7 +17,7 @@
 		<InternalLink href="#metadaten" text="Metadaten und APIs" />
 		<InternalLink href="#tools" text="Tools" />
 		<InternalLink href="#offeneStandards" text="Offene Standards" />
-		<InternalLink href="/workshops" text="Workshops" />
+		<InternalLink href="/termine" text="Termine" />
 		<InternalLink href="#about" text="Über uns" />
 	</div>
 </section>

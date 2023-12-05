@@ -1,7 +1,7 @@
 <script lang="ts">
 	import ExampleSelectButton from '$lib/components/ExampleSelectButton.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import Workshop from '$lib/components/Workshop.svelte';
+	import Termin from '$lib/components/Termin.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -14,7 +14,7 @@
 			: (selectedExamples = [...selectedExamples, id]);
 	}
 
-	const workshops = data.events;
+	const termine = data.events;
 </script>
 
 <div class="flex flex-col md:max-w-xl w-full mx-auto">
@@ -37,7 +37,7 @@
 		</div>
 	</div>
 	<div class="flex flex-col items-center">
-		<h2 class="h-14 mt-[30px] text-sky-900 text-4xl uppercase tracking-wide">Workshops</h2>
+		<h2 class="h-14 mt-[30px] text-sky-900 text-4xl uppercase tracking-wide">Termine</h2>
 
 		<p class="text-cyan-950 mx-[30px] text-sm font-light leading-normal tracking-wider">
 			Wir bieten Workshops auf Konferenzen an oder auch im Rahmen der Weiter-bildungsangebote des
@@ -62,8 +62,8 @@
 			<ExampleSelectButton on:select={() => handleSelect('metafacture')} text="metafacture" />
 		</div>
 		<div class="grid grid-cols-1 gap-2">
-			{#each workshops as workshop}
-				<Workshop {...workshop} />
+			{#each termine as termin}
+				<Termin {...termin} />
 			{/each}
 		</div>
 	</div>
