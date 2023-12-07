@@ -4,10 +4,10 @@
   import ExampleSelectButton from "$lib/components/ExampleSelectButton.svelte";
   import ExampleBox from "$lib/components/ExampleBox.svelte";
   import ForumHint from "$lib/components/ForumHint.svelte";
-  import Auffindbarkeit from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/GND/GND_Auffindbarkeit_Rechendienste.svx"
-  import OpenRefine from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/GND/GND_OpenRefine.svx"
-  import Recherecheangebote from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/GND/GND_Rechercheangebote.svx"
-  import WeitereTools from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/GND/GND_WeitereTools.svx"
+  import Auffindbarkeit from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/gnd/GND_Auffindbarkeit_Rechendienste.svx"
+  import OpenRefine from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/gnd/GND_OpenRefine.svx"
+  import Recherecheangebote from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/gnd/GND_Rechercheangebote.svx"
+  import WeitereTools from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/gnd/GND_WeitereTools.svx"
   import ResourcesAPI from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/resources/resources_ResourcesAPI.svx"
   import UsingResourcesDumps from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/resources/resources_UsingResourcesDumps.svx"
   import Logo from "$lib/components/Logo.svelte"
