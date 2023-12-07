@@ -1,4 +1,0 @@
-- [lobid-gnd – Eine Schnittstelle zur Gemeinsamen Normdatei für Mensch und Maschine](https://journals.ub.uni-heidelberg.de/index.php/ip/article/view/52673/51904)
-- [Automatisierte Anreicherung mit GND-IDs in Wikipedia](https://blog.lobid.org/2023/06/06/wikipedia-normdatenvorlage.html)
-- [Komplexe Suchabfragen per Recherchemaske vorbereiten](https://blog.lobid.org/2018/07/06/lobid-gnd-queries.html)
-- [A django package to query and store data from lobid's GND-API (eng)](https://pypi.org/project/django-gnd/)

@@ -1,6 +1,4 @@
 
-- [lobid-gnd – Eine Schnittstelle zur Gemeinsamen Normdatei für Mensch und Maschine](https://journals.ub.uni-heidelberg.de/index.php/ip/article/view/52673/51904)
-- [Ein Protokoll für den Datenabgleich im Web am Beispiel von OpenRefine und der Gemeinsamen Normdatei (GND)](https://www.degruyter.com/document/doi/10.1515/9783110691597-013/html)
 - [Reconciling mit OpenRefine und der GND](https://fdmlab.landesarchiv-bw.de/workshop/openrefine-einsteiger/06-reconciling-mit-gnd/)
 - [Verknüpfungen zwischen Korpora erstellen durch GND-Verschlagwortung](https://www.fachportal-paedagogik.de/graph/index.html)
 - [Datenabgleich mit Geburtsdaten, Todesdaten, Beruf oder Anstellung (eng)](https://blog.lobid.org/2019/09/30/openrefine-examples.html)
@@ -12,3 +10,5 @@
 - [Findbuch Index mit OpenRefine aufbereiten](https://fdmlab.landesarchiv-bw.de/post/2021-07-findbuch-index-mit-openrefine-aufbereiten/)
 - [Abgleich 'unsauberer' Ortsnamen mit der GND in OpenRefine (Videotutorial)](https://www.youtube.com/watch?v=tCdluPq5GkA)
 - [Weitere Datenservices zur Nutzung in OpenRefine](https://reconciliation-api.github.io/testbench/#/)
+- [lobid-gnd – Eine Schnittstelle zur Gemeinsamen Normdatei für Mensch und Maschine](https://journals.ub.uni-heidelberg.de/index.php/ip/article/view/52673/51904)
+- [Ein Protokoll für den Datenabgleich im Web am Beispiel von OpenRefine und der Gemeinsamen Normdatei (GND)](https://www.degruyter.com/document/doi/10.1515/9783110691597-013/html)
