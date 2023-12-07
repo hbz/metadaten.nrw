@@ -4,7 +4,8 @@
   import ExampleSelectButton from "$lib/components/ExampleSelectButton.svelte";
   import ExampleBox from "$lib/components/ExampleBox.svelte";
   import ForumHint from "$lib/components/ForumHint.svelte";
-  import SkoHub from "./Praxisbeispiele/SkoHub.svx"
+  import SkoHubPublication from "./Praxisbeispiele/skohub_publication.svx"
+  import SkoHubExamples from "./Praxisbeispiele/skohub_examples.svx"
   import Logo from "$lib/components/Logo.svelte"
 
   let selectedExamples = [];
@@ -32,10 +33,10 @@ Mit SkoHub publizierte Vokabulare folgen dem W3C-Standard Simple Knowledge Organ
 
 <div class="mt-[50px] mb-[50px]">
 <InternalLink fillBackground={false} href="#skohub.praxisbeispiele" text="Praxisbeispiele" /> 
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zur Webseite" /> 
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zum Blog" />
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Workshops" />
-<ExternalLink fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
+<ExternalLink fillBackground={false} href="https://skohub.io" text="Zur Webseite" /> 
+<ExternalLink fillBackground={false} href="https://blog.skohub.io" text="Zum Blog" />
+<ExternalLink fillBackground={false} href="/termine" text="Termine" />
+<ExternalLink fillBackground={true} href="https://metadaten.community/c/software-und-tools/skohub/9" text="Zum Forum" />
 <ForumHint />
 </div>
 
@@ -46,12 +47,10 @@ Mit SkoHub publizierte Vokabulare folgen dem W3C-Standard Simple Knowledge Organ
 </div>
 
 
-<ExampleBox title="Nutzung von lobid-resources für Recherdienste in Bibliotheken">
-<SkoHub />
+<ExampleBox title="Publikation und Nutzung kontrollierter Vokabulare">
+<SkoHubPublication />
 </ExampleBox>
 
-<ExampleBox title="Nutzung von lobid-resources für Recherchedienste in Bibliotheken">
-</ExampleBox>
-
-<ExampleBox title="Nutzung von lobid-resources für Recherechedienste in Bibliotheken">
+<ExampleBox title="Beispielvokabulare">
+<SkoHubExamples />
 </ExampleBox>
