@@ -35,7 +35,7 @@ lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets
 <InternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Praxisbeispiele" /> 
 <ExternalLink fillBackground={false} href="https://lobid.org" text="Zur Webseite" /> 
 <ExternalLink fillBackground={false} href="https://blog.lobid.org" text="Zum Blog" />
-<ExternalLink fillBackground={false} href="/termine" text="Termine" />
+<InternalLink fillBackground={false} href="/termine" text="Termine" />
 <ExternalLink fillBackground={true} href="https://metadaten.community/c/software-und-tools/lobid/10" text="Zum Forum" />
 <ForumHint />
 </div>

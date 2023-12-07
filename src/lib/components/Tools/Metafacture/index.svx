@@ -36,7 +36,7 @@ Mit dem eigens entwickelten metafacture-Playground können Datenprozesse im Webb
 <InternalLink fillBackground={false} href="#metafacture.praxisbeispiele" text="Praxisbeispiele" /> 
 <ExternalLink fillBackground={false} href="https://metafacture.org" text="Zur Webseite" /> 
 <ExternalLink fillBackground={false} href="https://blog.metafacture.org" text="Zum Blog" />
-<ExternalLink fillBackground={false} href="/termine" text="Termine" />
+<InternalLink fillBackground={false} href="/termine" text="Termine" />
 <ExternalLink fillBackground={true} href="https://metadaten.community/c/software-und-tools/metafacture/8" text="Zum Forum" />
 <ForumHint />
 </div>

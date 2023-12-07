@@ -35,7 +35,7 @@ Mit SkoHub publizierte Vokabulare folgen dem W3C-Standard Simple Knowledge Organ
 <InternalLink fillBackground={false} href="#skohub.praxisbeispiele" text="Praxisbeispiele" /> 
 <ExternalLink fillBackground={false} href="https://skohub.io" text="Zur Webseite" /> 
 <ExternalLink fillBackground={false} href="https://blog.skohub.io" text="Zum Blog" />
-<ExternalLink fillBackground={false} href="/termine" text="Termine" />
+<InternalLink fillBackground={false} href="/termine" text="Termine" />
 <ExternalLink fillBackground={true} href="https://metadaten.community/c/software-und-tools/skohub/9" text="Zum Forum" />
 <ForumHint />
 </div>
