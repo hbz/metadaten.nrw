@@ -4,7 +4,7 @@
   import ExampleSelectButton from "$lib/components/ExampleSelectButton.svelte";
   import ExampleBox from "$lib/components/ExampleBox.svelte";
   import ForumHint from "$lib/components/ForumHint.svelte";
-  import OERSI from "./Praxisbeispiele/oersi.svx"
+  import OersiRechercheapps from "./Praxisbeispiele/oersi_Rechercheapps.svx"
   import Logo from "$lib/components/Logo.svelte"
 
   let selectedExamples = [];
@@ -35,10 +35,10 @@ Wenn auch Sie von mehr Sichtbarkeit für Ihre Bildungsressourcen profitieren ode
 
 <div class="mt-[50px] mb-[50px]">
 <InternalLink fillBackground={false} href="#oersi.praxisbeispiele" text="Praxisbeispiele" /> 
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zur Webseite" /> 
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zum Blog" />
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Workshops" />
-<ExternalLink fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
+<ExternalLink fillBackground={false} href="https://oersi.org" text="Zur Webseite" />
+<ExternalLink fillBackground={false} href="https://oersi.org/resources/pages/en/blog/" text="Zum Blog" />
+<ExternalLink fillBackground={false} href="/termine" text="Termine" />
+<ExternalLink fillBackground={true} href="https://metadaten.community/c/software-und-tools/oersi/11" text="Zum Forum" />
 <ForumHint />
 </div>
 
@@ -49,12 +49,6 @@ Wenn auch Sie von mehr Sichtbarkeit für Ihre Bildungsressourcen profitieren ode
 
 </div>
 
-<ExampleBox title="Nutzung von lobid-resources für Recherdienste in Bibliotheken">
-<OERSI />
-</ExampleBox>
-
-<ExampleBox title="Nutzung von lobid-resources für Recherchedienste in Bibliotheken">
-</ExampleBox>
-
-<ExampleBox title="Nutzung von lobid-resources für Recherechedienste in Bibliotheken">
+<ExampleBox title="Individuelle OER-Rechercheanwendungen auf Basis der OERSI-API">
+<OersiRechercheapps />
 </ExampleBox>
