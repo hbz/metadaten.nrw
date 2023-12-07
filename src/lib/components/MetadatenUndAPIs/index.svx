@@ -1,6 +1,7 @@
 <script>
   import Lobid from "$lib/components/MetadatenUndAPIs/Lobid/index.svx"
   import OERSI from "$lib/components/MetadatenUndAPIs/OERSI/index.svx"
+  import GOKb from "$lib/components/MetadatenUndAPIs/GOKb/index.svx"
 </script>
 
 ## Metadaten und APIs
@@ -9,3 +10,4 @@ Unsere Metadatendienste zeichnen sich durch vielfältige Nutzungsmöglichkeiten,
 
 <Lobid />
 <OERSI />
+<GOKb />

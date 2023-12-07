@@ -10,8 +10,8 @@
 	<p
 		class="ml-auto w-3/4 uppercase hyphens-manual font-semibold text-white text-right tracking-wide"
 	>
-		Metadaten.nrw ist ein W egweiser für offene Metadatendienste des
-		Hochschulbibliotheks&shy; zentrums NRW (hbz).
+		Metadaten.nrw ist ein Wegweiser für offene Metadatendienste des
+		Hochschulbibliothekszentrums NRW (hbz).
 	</p>
 	<div class="flex flex-col w-full mt-[44px] mx-auto justify-center mb-[70px]">
 		<InternalLink href="#metadaten" text="Metadaten und APIs" />

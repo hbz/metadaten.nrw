@@ -1,0 +1,37 @@
+<script>
+	import InternalLink from '$lib/components/Links/InternalLink.svelte';
+	import ExternalLink from '$lib/components/Links/ExternalLink.svelte';
+  import ExampleSelectButton from "$lib/components/ExampleSelectButton.svelte";
+  import ExampleBox from "$lib/components/ExampleBox.svelte";
+  import ForumHint from "$lib/components/ForumHint.svelte";
+  import GokbRecherche from "./Praxisbeispiele/gokb_Recherche.svx"
+  import Logo from "$lib/components/Logo.svelte"
+
+  let selectedExamples = [];
+
+  function handleSelect(id) {
+    selectedExamples.includes(id)
+    ? selectedExamples = selectedExamples.filter(e => e !== id)
+    : selectedExamples = [...selectedExamples, id]
+  }
+</script>
+
+<Logo path="logos/gokb.png" />
+
+> "Die GOKb ist der zentrale Punkt, um Metadaten von E-Ressourcen mit Identifikatoren (z. B. ZDB-ID, EZB-ID, Titelverlauf) anreichern zu lassen. Daher dient die GOKb als Identitätsvermittler für elektronische Ressourcen über ihren gesamten Lebenszyklus hinweg."
+
+<p class="quoteAuthor">Daniel Rupp, hbz</p>
+
+Die Global Open Knowledgebase (GOKb) ist eine kooperativ betriebene, offene Datenplattform, in der Metadaten von Paketen elektronischer Ressourcen verwaltet werden, die durch automatische Prozesse normalisiert, validiert und angereichert werden, um sie optimal auf den Austausch mit Drittsystemen über offene Schnittstellen vorzubereiten. Alle GOKB-Daten stehen uneingeschränkt unter der CC0 1.0 Public Domain Dedication zur Verfügung.
+<br />
+
+Die Metadaten der GOKb umfassen Informationen zu Paketen, Titeln, Verfügbarkeitsdaten, Plattformen und Anbietern von E-Ressourcen. Das Datenmodell hält Änderungen nach und bietet Transparenz hinsichtlich der Datenherkunft und -aktualität.
+
+<br />
+
+Nutzende können die Datenqualität der Pakete direkt optimieren, indem sie sich an der Datenerfassung und -pflege beteiligen. Die internationale Community setzt sich aus Bibliotheken, Konsortialstellen und Anbietern zusammen. Die GOKb lebt davon, dass die Nutzenden die Pakete kuratieren, Änderungen bei den Meta- und Titeldaten nachhalten und Datenprobleme beheben, die beim Datenimport durch automatisiert erstellte Prüfanfragen identifiziert und aufbereitet werden.
+
+<div class="mt-[50px] mb-[50px]">
+<ExternalLink fillBackground={false} href="https://gokb.org/" text="Zur Webseite" />
+<ExternalLink fillBackground={false} href="/termine" text="Termine" />
+</div>
