@@ -1,3 +1,0 @@
-- [Vorhandene Titel e-Book-Paketen zuordnen](https://blog.lobid.org/2020/04/15/ebook-packages.html)
-- [Verlagspakete mit dem Bestand abgleichen](https://github.com/frauhollunder/Bestandspr-fung_lobid) - Sarah Pielmeier angefragt
-- [BiblioGraph: Linked Open Data an der UB Dortmund](https://www.b-i-t-online.de/heft/2023-05-fachbeitrag-becker.pdf)

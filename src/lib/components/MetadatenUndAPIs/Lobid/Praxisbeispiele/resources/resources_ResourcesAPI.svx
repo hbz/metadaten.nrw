@@ -1,0 +1,3 @@
+- [Titelsuche in einzelnen e-Book-Paketen](https://blog.lobid.org/2020/04/15/ebook-packages.html)
+- [Anzeige von Titeln von oder über eine Person im Biographischen Portal NRW](https://biographie-nrw.uni-muenster.de)
+- [Nordrhein-Westfälische Bibliographie (NWBib)](https://nwbib.de/)

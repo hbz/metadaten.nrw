@@ -1,3 +1,0 @@
-- [NWBib des Hochschulbibliothekszentrums NRW (hbz)](https://nwbib.de/)
-- [Biographisches Portal NRW der ULB Münster](https://biographie-nrw.uni-muenster.de)
-- [Katalog Plus der UB Dortmund](https://katalog.ub.tu-dortmund.de/)
