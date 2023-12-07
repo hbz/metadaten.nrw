@@ -7,8 +7,9 @@
   import Auffindbarkeit from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/GND/GND_Auffindbarkeit_Rechendienste.svx"
   import OpenRefine from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/GND/GND_OpenRefine.svx"
   import Recherecheangebote from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/GND/GND_Rechercheangebote.svx"
-  import WebAPI from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/GND/GND_WebAPI.svx"
   import WeitereTools from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/GND/GND_WeitereTools.svx"
+  import ResourcesAPI from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/resources/resources_ResourcesAPI.svx"
+  import UsingResourcesDumps from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/resources/resources_UsingResourcesDumps.svx"
   import Logo from "$lib/components/Logo.svelte"
 
   let selectedExamples = [];
@@ -57,14 +58,18 @@ lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets
 <OpenRefine />
 </ExampleBox>
 
-<ExampleBox title="Weitere Tools für GLAMs und Forschung" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
+<ExampleBox title="Einfache und komplexe Abfrage der GND" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
 <Recherecheangebote />
-</ExampleBox>
-
-<ExampleBox title="Recherecheangebote von lobid-gnd" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
-<WebAPI />
 </ExampleBox>
 
 <ExampleBox title="lobid-gnd per Web API abfragen" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
 <WeitereTools />
+</ExampleBox>
+
+<ExampleBox title="In Webanwendungen gezielt Literatur aus dem hbz-Verbundkatalog anzeigen" selected={!selectedExamples.length || ["lobid-resources"].some(e => selectedExamples.includes(e))}>
+<ResourcesAPI />
+</ExampleBox>
+
+<ExampleBox title="Teilmengen des hbz-Verbundkatalogs beziehen und für eigene Recherchedienste nutzen" selected={!selectedExamples.length || ["lobid-resources"].some(e => selectedExamples.includes(e))}>
+<UsingResourcesDumps />
 </ExampleBox>
