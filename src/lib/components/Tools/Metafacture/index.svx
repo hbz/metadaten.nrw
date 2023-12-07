@@ -34,10 +34,10 @@ Mit dem eigens entwickelten metafacture-Playground können Datenprozesse im Webb
 
 <div class="mt-[50px] mb-[50px]">
 <InternalLink fillBackground={false} href="#metafacture.praxisbeispiele" text="Praxisbeispiele" /> 
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zur Webseite" /> 
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zum Blog" />
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Workshops" />
-<ExternalLink fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
+<ExternalLink fillBackground={false} href="https://metafacture.org" text="Zur Webseite" /> 
+<ExternalLink fillBackground={false} href="https://blog.metafacture.org" text="Zum Blog" />
+<ExternalLink fillBackground={false} href="/termine" text="Termine" />
+<ExternalLink fillBackground={true} href="https://metadaten.community/c/software-und-tools/metafacture/8" text="Zum Forum" />
 <ForumHint />
 </div>
 
@@ -47,23 +47,4 @@ Mit dem eigens entwickelten metafacture-Playground können Datenprozesse im Webb
 
 </div>
 
-<div class="flex flex-wrap mx-auto w-80">
-<ExampleSelectButton on:select={() => handleSelect("metafacture")} text="metafacture" />
-<ExampleSelectButton on:select={() => handleSelect("metafacture playground")} text="metafacture playground" />
-</div>
 
-<ExampleBox title="Auffindbarkeit in Recherchediensten verbessern mit der GND" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
-<Metafacture />
-</ExampleBox>
-
-<ExampleBox title="Die GND in OpenRefine nutzen" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
-</ExampleBox>
-
-<ExampleBox title="Weitere Tools für GLAMs und Forschung" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
-</ExampleBox>
-
-<ExampleBox title="Recherecheangebote von lobid-gnd" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
-</ExampleBox>
-
-<ExampleBox title="lobid-gnd per Web API abfragen" selected={!selectedExamples.length || ["lobid-gnd"].some(e => selectedExamples.includes(e))}>
-</ExampleBox>
