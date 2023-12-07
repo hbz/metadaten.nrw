@@ -30,7 +30,7 @@ metafacture erlaubt das performante Handling von Metadaten auch im großen Stil.
 
 <br />
 
-Mit dem eigens entwickelten  metafacture-Playground können Datenprozesse im Webbrowser erlernt, konzipiert, getestet und geteilt werden.
+Mit dem eigens entwickelten metafacture-Playground können Datenprozesse im Webbrowser erlernt, konzipiert, getestet und geteilt werden.
 
 <div class="mt-[50px] mb-[50px]">
 <InternalLink fillBackground={false} href="#metafacture.praxisbeispiele" text="Praxisbeispiele" /> 

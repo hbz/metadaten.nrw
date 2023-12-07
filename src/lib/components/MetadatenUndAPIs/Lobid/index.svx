@@ -26,13 +26,7 @@
 
 <p class="quoteAuthor">Mfchris84, Wikipedia</p>
 
-lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets bieten. 
-Die Gemeinsame Normdatei (lobid-gnd), die NRW-Verbunddaten (lobid-resources) und die 
-Organisationsdaten aus dem Sigelverzeichnis sowie der Deutschen 
-Bibliotheksstatistik (DBS) (lobid-organisations). Sie werden als leicht 
-nutzbare, strukturierte Daten über offene Webschnittstellen angeboten. 
-Insbesondere für die GND-Normdaten ermöglicht die Bereitstellung einer 
-Reconciliation-Schnittstelle auch den Datenabgleich in Datenanwendungen  wie OpenRefine oder Cocoda.
+lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets bieten. Die Gemeinsame Normdatei (lobid-gnd), die NRW-Verbunddaten (lobid-resources) und die Organisationsdaten aus dem Sigelverzeichnis sowie der Deutschen Bibliotheksstatistik (DBS) (lobid-organisations). Sie werden als leicht nutzbare, strukturierte Daten über offene Webschnittstellen angeboten. Insbesondere für die GND-Normdaten ermöglicht die Bereitstellung einer Reconciliation-Schnittstelle auch den Datenabgleich in Datenanwendungen wie OpenRefine oder Cocoda.
 
 <div class="mt-[50px] mb-[50px]">
 <InternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Praxisbeispiele" /> 

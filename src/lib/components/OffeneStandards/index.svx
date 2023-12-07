@@ -5,7 +5,7 @@
 
 ## Offene Standards
 
-Offene Standards sind Grundlage für  die maximale Nutzbarkeit von Metadaten. Die Bibliothekswelt hat mit MARC21 früh an gemeinsamen domänenspezifischen Standards gearbeitet. Mit Bibframe wurde der Weg zu webkonformen Standards eingeschlagen.  Wir setzen seit langem auf domänen-übergreifende Webstandards, um wartungsarme und zukunftsfähige Anwendungen zu ermöglichen.
+Offene Standards sind Grundlage für die maximale Nutzbarkeit von Metadaten. Die Bibliothekswelt hat mit MARC21 früh an gemeinsamen domänenspezifischen Standards gearbeitet. Mit Bibframe wurde der Weg zu webkonformen Standards eingeschlagen. Wir setzen seit langem auf domänen-übergreifende Webstandards, um wartungsarme und zukunftsfähige Anwendungen zu ermöglichen.
 
 <br />
 
@@ -19,7 +19,7 @@ Wir engagieren uns im Kontext des Kompetenzzentrums Interoperable Metadaten (DIN
 
 <br />
 
-### Linked Open  Usable Data
+### Linked Open Usable Data
 
 <br />
 
@@ -27,7 +27,7 @@ Offenheit bedeutet für uns insbesondere die Bereitstellung webkonformer Metadat
 
 <br />
 
-### Offene Datenmodelle  & Protokolle
+### Offene Datenmodelle & Protokolle
 
 <br />
 
