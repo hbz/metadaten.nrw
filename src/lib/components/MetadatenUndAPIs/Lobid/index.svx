@@ -10,6 +10,8 @@
   import WeitereTools from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/gnd/GND_WeitereTools.svx"
   import ResourcesAPI from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/resources/resources_ResourcesAPI.svx"
   import UsingResourcesDumps from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/resources/resources_UsingResourcesDumps.svx"
+  import GeoData from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/organisations/organisations_GeoData.svx"
+  import Reconciliation from "$lib/components/MetadatenUndAPIs/Lobid/Praxisbeispiele/organisations/organisations_Reconciliation.svx"
   import Logo from "$lib/components/Logo.svelte"
 
   let selectedExamples = [];
@@ -70,6 +72,14 @@ lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets
 <ResourcesAPI />
 </ExampleBox>
 
-<ExampleBox title="Teilmengen des hbz-Verbundkatalogs beziehen und für eigene Recherchedienste nutzen" selected={!selectedExamples.length || ["lobid-resources"].some(e => selectedExamples.includes(e))}>
+<ExampleBox title="Teilmengen des hbz-Verbundkatalogs für eigene Recherchedienste nutzen" selected={!selectedExamples.length || ["lobid-resources"].some(e => selectedExamples.includes(e))}>
 <UsingResourcesDumps />
+</ExampleBox>
+
+<ExampleBox title="Listen von Bibliotheken, Archiven und/oder Museen auf einer Landkarte visualisieren" selected={!selectedExamples.length || ["lobid-organisations"].some(e => selectedExamples.includes(e))}>
+<GeoData />
+</ExampleBox>
+
+<ExampleBox title="Matching von Organisationen auf ISILs in OpenRefine" selected={!selectedExamples.length || ["lobid-organisations"].some(e => selectedExamples.includes(e))}>
+<Reconciliation />
 </ExampleBox>
