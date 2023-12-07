@@ -4,7 +4,8 @@
   import ExampleSelectButton from "$lib/components/ExampleSelectButton.svelte";
   import ExampleBox from "$lib/components/ExampleBox.svelte";
   import ForumHint from "$lib/components/ForumHint.svelte";
-  import Metafacture from "./Praxisbeispiele/metafacture.svx"
+  import MetafactureTutorials from "./Praxisbeispiele/metafacture_Tutorials.svx"
+  import MetafactureDortmund from "./Praxisbeispiele/metafacture_UbDortmund.svx"
   import Logo from "$lib/components/Logo.svelte"
 
   let selectedExamples = [];
@@ -47,4 +48,10 @@ Mit dem eigens entwickelten metafacture-Playground können Datenprozesse im Webb
 
 </div>
 
+<ExampleBox title="Metafacture Tutorials">
+<MetafactureTutorials />
+</ExampleBox>
 
+<ExampleBox title="Metafacture als zentrales Werkzeug an der UB Dortmund">
+<MetafactureDortmund />
+</ExampleBox>
