@@ -13,9 +13,9 @@ Offene Standards sind Grundlage für die maximale Nutzbarkeit von Metadaten. Die
 
 <br />
 
-Offene Standards bauen auf der community-gestützten Entwicklung auf. Eine gemeinschaftlich umgesetzte Standardisierung ist Voraussetzung, um eine breite Nutzung und Akzeptanz zu erreichen, um Interoperabilität zu fördern und Silos zu vermeiden.
+Offene Standards bauen auf einer community-gestützten Entwicklung auf. Eine gemeinschaftlich umgesetzte Standardisierung ist Voraussetzung, um eine breite Nutzung und Akzeptanz zu erreichen, um Interoperabilität zu fördern und Silos zu vermeiden.
 
-Wir engagieren uns im Kontext des Kompetenzzentrums Interoperable Metadaten (DINI AG KIM), des World Wide Web Consortiums (W3C) und der Dublin Core Metadata Initiative (DCMI) für die gemeinsame Entwicklung und Pflege von standardisierten Metadaten und Protokollen.
+Wir engagieren uns im Kontext des Kompetenzzentrums Interoperable Metadaten ([DINI AG KIM](https://wiki.dnb.de/display/DINIAGKIM)), des World Wide Web Consortiums ([W3C](https://www.w3.org/)) und der Dublin Core Metadata Initiative ([DCMI](https://www.dublincore.org/)) für die gemeinsame Entwicklung und Pflege von standardisierten Metadaten und Protokollen.
 
 <br />
 
@@ -31,12 +31,9 @@ Offenheit bedeutet für uns insbesondere die Bereitstellung webkonformer Metadat
 
 <br />
 
-In der DINI AG KIM haben wir maßgeblich an der Spezifikation des Allgemeinen Metadatenprofils für Bildungsressourcen (AMB) mitgewirkt, das die strukturierte Beschreibung von Lehr- und Lernressourcen im Web unterstützt.
+In der DINI AG KIM haben wir maßgeblich an der Spezifikation des Allgemeinen Metadatenprofils für Bildungsressourcen ([AMB](https://w3id.org/kim/amb/latest/)) mitgewirkt, das die strukturierte Beschreibung von Lehr- und Lernressourcen im Web unterstützt.
 
-Beim W3C arbeiten wir mit an der Standardisierung der Reconciliation Service API zum Abgleich verschiedener Datenquellen. Das Protokoll wird schon jetzt durch viele Datenquellen und Anwendungen unterstützt.
+Beim W3C arbeiten wir mit an der Standardisierung der [Reconciliation Service API](https://reconciliation-api.github.io/specs/draft/) zum Abgleich verschiedener Datenquellen. Das Protokoll wird schon jetzt durch viele Datenquellen und Anwendungen unterstützt.
 
-<div class="mt-[50px] mb-[50px]">
-<ExternalLink fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
-<ForumHint />
-</div>
-
+<br />
+<br />
