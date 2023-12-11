@@ -13,6 +13,6 @@
 	<div
 		class="absolute -right-0 bottom-0 w-32 h-52 bg-gradient-to-b from-fuchsia-700 to-sky-800 rounded-tl-2xl"
 	>
-		<img class="w-[94px] object-contain my-[23px] ml-[21px]" src="metadaten-nrw-hoch-w.png" />
+		<img class="w-[94px] object-contain mt-[23px] ml-[21px]" src="metadaten-nrw-hoch-w.png" />
 	</div>
 </div>
