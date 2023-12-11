@@ -59,7 +59,6 @@
     @apply text-left;
     @apply font-normal;
     @apply mb-[20px];
-    @apply md:text-center;
   } 
 
   .md h2:not(:first-of-type) {
@@ -71,7 +70,6 @@
     @apply text-[#AF2896];
     @apply uppercase;
     @apply text-left;
-    @apply md:text-center;
     @apply mt-[70px];
     @apply mb-[30px];
     @apply tracking-wide;
