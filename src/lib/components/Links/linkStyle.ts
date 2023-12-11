@@ -18,13 +18,17 @@ const className: string = `
 
 export const classNameBg: string = `
   ${className}
-  bg-[#004678]
+  bg-sky-900
+  hover:bg-white
+  hover:text-sky-900
   text-white
 `
 export const classNameNoBg: string = `
   ${className}
-  bg-[#FFFFFF]
-  text-[#AF2896]
+  bg-white
+  text-fuchsia-700
+  hover:bg-sky-900
+  hover:text-white
   border
   border-zinc-300
 `
