@@ -7,4 +7,4 @@
 	export let fillBackground: boolean = true;
 </script>
 
-<a {href} target="_blank" class={fillBackground ? classNameBg : classNameNoBg}>{text}</a>
+<a {href} rel="external" class={fillBackground ? classNameBg : classNameNoBg}>{text}</a>
