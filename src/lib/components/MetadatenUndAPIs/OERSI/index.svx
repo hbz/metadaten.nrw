@@ -35,10 +35,10 @@ Wenn auch Sie von mehr Sichtbarkeit für Ihre Bildungsressourcen profitieren ode
 
 <div class="mt-[50px] mb-[50px]">
 <InternalLink fillBackground={false} href="#oersi.praxisbeispiele" text="Praxisbeispiele" /> 
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zur Webseite" /> 
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zum Blog" />
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Workshops" />
-<ExternalLink fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
+<ExternalLink rel="external" fillBackground={false} href="#lobid.praxisbeispiele" text="Zur Webseite" /> 
+<ExternalLink rel="external" fillBackground={false} href="#lobid.praxisbeispiele" text="Zum Blog" />
+<ExternalLink rel="external" fillBackground={false} href="#lobid.praxisbeispiele" text="Workshops" />
+<ExternalLink rel="external" fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
 <ForumHint />
 </div>
 

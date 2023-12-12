@@ -36,7 +36,7 @@ In der DINI AG KIM haben wir maßgeblich an der Spezifikation des Allgemeinen Me
 Beim W3C arbeiten wir mit an der Standardisierung der Reconciliation Service API zum Abgleich verschiedener Datenquellen. Das Protokoll wird schon jetzt durch viele Datenquellen und Anwendungen unterstützt.
 
 <div class="mt-[50px] mb-[50px]">
-<ExternalLink fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
+<ExternalLink rel="external" fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
 <ForumHint />
 </div>
 

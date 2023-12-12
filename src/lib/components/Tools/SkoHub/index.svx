@@ -32,10 +32,10 @@ Mit SkoHub publizierte Vokabulare folgen dem W3C-Standard Simple Knowledge Organ
 
 <div class="mt-[50px] mb-[50px]">
 <InternalLink fillBackground={false} href="#skohub.praxisbeispiele" text="Praxisbeispiele" /> 
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zur Webseite" /> 
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Zum Blog" />
-<ExternalLink fillBackground={false} href="#lobid.praxisbeispiele" text="Workshops" />
-<ExternalLink fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
+<ExternalLink rel="external" fillBackground={false} href="#lobid.praxisbeispiele" text="Zur Webseite" /> 
+<ExternalLink rel="external" fillBackground={false} href="#lobid.praxisbeispiele" text="Zum Blog" />
+<ExternalLink rel="external" fillBackground={false} href="#lobid.praxisbeispiele" text="Workshops" />
+<ExternalLink rel="external" fillBackground={true} href="#lobid.praxisbeispiele" text="Zum Forum" />
 <ForumHint />
 </div>
 
