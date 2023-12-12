@@ -35,10 +35,10 @@ Wenn auch Sie von mehr Sichtbarkeit für Ihre Bildungsressourcen profitieren ode
 
 <div class="mt-[50px] mb-[50px]">
 <InternalLink fillBackground={false} href="#oersi.praxisbeispiele" text="Praxisbeispiele" /> 
-<ExternalLink fillBackground={false} href="https://oersi.org" text="Zur Webseite" />
-<ExternalLink fillBackground={false} href="https://oersi.org/resources/pages/en/blog/" text="Zum Blog" />
+<ExternalLink rel="external" fillBackground={false} href="https://oersi.org" text="Zur Webseite" />
+<ExternalLink rel="external" fillBackground={false} href="https://oersi.org/resources/pages/en/blog/" text="Zum Blog" />
 <InternalLink fillBackground={false} href="/termine" text="Termine" />
-<ExternalLink fillBackground={true} href="https://metadaten.community/c/software-und-tools/oersi/11" text="Zum Forum" />
+<ExternalLink rel="external" fillBackground={true} href="https://metadaten.community/c/software-und-tools/oersi/11" text="Zum Forum" />
 <ForumHint />
 </div>
 
