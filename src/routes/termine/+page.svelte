@@ -37,7 +37,9 @@
 		</div>
 	</div>
 	<div class="flex flex-col items-center">
-		<h2 class="h-14 mt-[30px] text-sky-900 text-4xl uppercase tracking-wide">Termine</h2>
+		<h2 class="h-14 mt-[30px] text-fuchsia-700 ml-[30px] mr-auto text-4xl uppercase tracking-wide">
+			Termine
+		</h2>
 
 		<p class="text-cyan-950 mx-[30px] text-sm font-light leading-normal tracking-wider">
 			Wir bieten Workshops auf Konferenzen an oder auch im Rahmen der Weiter-bildungsangebote des
