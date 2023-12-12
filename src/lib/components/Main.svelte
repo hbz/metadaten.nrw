@@ -8,10 +8,10 @@
 		<img class="w-[106px] mt-[21px] z-10" alt="hbz logo" src="logos/hbz.png" />
 	</div>
 	<p
-		class="ml-auto w-3/4 uppercase hyphens-manual font-semibold text-white text-right tracking-wide"
+		class="ml-auto w-3/4 uppercase leading-normal text-sm hyphens-manual font-semibold text-white text-right tracking-wide"
 	>
-		Metadaten.nrw ist ein Wegweiser für offene Metadatendienste des
-		Hochschulbibliothekszentrums NRW (hbz).
+		Metadaten.nrw ist ein Wegweiser für offene Metadatendienste des Hochschulbibliotheks-zentrums
+		NRW (hbz).
 	</p>
 	<div class="flex flex-col w-full mt-[44px] mx-auto justify-center mb-[70px]">
 		<InternalLink href="#metadaten" text="Metadaten und APIs" />
