@@ -1,1 +1,0 @@
-- [Matching von Organisationsnamen auf ISILs in OpenRefine](https://github.com/hbz/lobid-organisations/issues/55)

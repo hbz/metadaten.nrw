@@ -1,2 +1,0 @@
-- [Suche und Navigation](https://blog.lobid.org/2018/07/04/lobid-gnd-suche.html)
-- [Komplexe Suchabfragen](https://blog.lobid.org/2018/07/06/lobid-gnd-queries.html)

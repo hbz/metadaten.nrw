@@ -1,4 +1,0 @@
-- [Erweiterte GND-Informationen im OPAC der UB Paderborn](https://blogs.uni-paderborn.de/ub-katalog/2023/06/20/gnd-daten-im-katalog/)
-- [Hamburg-Bibliographie: Datenanreicherung mit Hilfe von lobid](https://blog.sub.uni-hamburg.de/?p=35640)
-- [Infoboxes für GND-Entitäten beim Fachinformationsdienst für Darstellende Kunst](https://www.performing-arts.eu/agent/gnd_119328674?)
-
