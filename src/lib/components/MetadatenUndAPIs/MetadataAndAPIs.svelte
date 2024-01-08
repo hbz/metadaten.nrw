@@ -8,18 +8,23 @@
 	Bibliotheken, Archiven und Museen und die wissenschaftliche Recherche. Ihre Bedeutung in
 	Wissenschaft und Bildung nimmt stetig zu.
 </p>
+
 <br />
+
 <p>
 	Das hbz beteiligt sich aktiv am Aufbau offener Infrastrukturen für Metadaten – durch
 	Bereitstellung offener Metadaten im Web, durch Entwicklung und Pflege von offenen Tools für das
 	Management von Metadaten und durch Beteiligung an der community-basierten Entwicklung offener
 	Standards.
 </p>
+
 <br />
+
 <p>
 	Mit dieser Webseite laden wir dazu ein, die Angebote des hbz für eine offene Metadatenpraxis näher
 	kennenzulernen!
 </p>
+
 <br />
 
 <div

@@ -35,13 +35,8 @@
 	{data.quoteAuthor}
 </div>
 
-<div class="flex flex-col md:flex-row">
-	<div
-		class="md:flex md:flex-col md:w-1/2 text-cyan-950 text-base font-light font-['Open Sans'] leading-7 tracking-wider whitespace-break-spaces"
-	>
-		{data.description}
-	</div>
-	<div class="md:flex md:col md:w-1/2 md:ml-[35px] md:mr-auto">
+<div class="">
+	<div class="float-right md:w-1/2">
 		<div class="mt-[50px] md:mt-0 md:mb-0">
 			{#if data.links[0]}
 				<InternalLink fillBackground={false} href={data.links[0]} text="Praxisbeispiele" />
@@ -58,6 +53,11 @@
 			{/if}
 			<ForumHint />
 		</div>
+	</div>
+	<div
+		class="text-cyan-950 text-base font-light font-['Open Sans'] leading-7 tracking-wider whitespace-break-spaces"
+	>
+		{data.description}
 	</div>
 </div>
 
