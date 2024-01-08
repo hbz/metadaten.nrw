@@ -1,6 +1,7 @@
 export const services = [
   {
     name: "lobid",
+    category: "metadata",
     logoPath: "logos/lobid.png",
     quote: "Von der Durchsuchbarkeit, Verfügbarkeit und Nachnutzbarkeit hat kein GND-Service im	bibliothekarischen Alltag jenes Standing, welches lobid geniesst.",
     quoteAuthor: "Mfchris84, Wikipedia",
@@ -104,6 +105,7 @@ lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets
   },
   {
     name: "oersi",
+    category: "metadata",
     logoPath: "logos/oersi.png",
     quote: "Die plattformübergreifende Listung unserer Lernressourcen durch OERSI trägt dank erhöhter Auffindbarkeit und Nachnutzung zur Verbesserung der Lehrkräfteaus- und -fortbildung bei.",
     quoteAuthor: "Manuel Oellers, COMEIN",
@@ -135,6 +137,7 @@ Wenn auch Sie von mehr Sichtbarkeit für Ihre Bildungsressourcen profitieren ode
   },
   {
     name: "gokb",
+    category: "metadata",
     logoPath: "logos/gokb.png",
     quote: "Die GOKb ist der zentrale Punkt, um Metadaten von E-Ressourcen mit Identifikatoren (z. B. ZDB-ID, EZB-ID, Titelverlauf) anreichern zu lassen. Daher dient die GOKb als Identitätsvermittler für elektronische Ressourcen über ihren gesamten Lebenszyklus hinweg.",
     quoteAuthor: "Daniel Rupp, hbz",
@@ -155,6 +158,88 @@ Nutzende können die Datenqualität der Pakete direkt optimieren, indem sie sich
     exampleButtons: [
     ],
     exampleBoxes: [
+    ]
+  },
+  {
+    name: "metafacture",
+    category: "tools",
+    logoPath: "logos/metafacture.png",
+    quote: "Metafacture leistet sehr gute und performante Dienste, vor allem auch bei der Live-Transformation im Rahmen der Ergebnisdarstellung in unserem *Katalog plus*. Zudem lässt es sich auch von Bibliothekar:innen mit wenig Programmierkenntnissen verwenden.",
+    quoteAuthor: "Hans-Georg Becker, UB Dortmund",
+    description: `
+metafacture ist ein auf bibliographische Metadaten spezialisiertes Toolkit für Datenprozesse. Ursprünglich wurde es von der DNB im Rahmen von CultureGraph entwickelt, 2019 hat das hbz die Maintainerschaft übernommen.
+
+metafacture erlaubt das performante Handling von Metadaten auch im großen Stil. Es bietet sich etwa für den automatisierten Bezug und die Aufbereitung von Fremddaten an oder für das Management von Daten während einer Systemmigration. Ziel ist es, der Fachebene ein Tool an die Hand zu geben, Datentransformationen selbstständig umzusetzen und die Bib-IT zu entlasten.
+
+Mit dem eigens entwickelten metafacture-Playground können Datenprozesse im Webbrowser erlernt, konzipiert, getestet und geteilt werden.
+`,
+    links: [
+      "#metafacture.praxisbeispiele",
+      "https://metafacture.org",
+      "https://blog.metafacture.org",
+      "/termine",
+      "https://metadaten.community/c/software-und-tools/metafacture/8",
+    ],
+    exampleButtons: [
+      { id: "metafacture", text: "metafacture" },
+      { id: "metafacture-playground", text: "metafacture playground" },
+    ],
+    exampleBoxes: [
+      {
+        title: "Metafacture Tutorials",
+        ids: ["metafacture"],
+        examples: [
+          { text: "A quick 5 minute introduction to Metafacture", href: "http://metafacture.github.io/metafacture-documentation/MF-in-5-min.html" },
+          { text: "Metafacture Tutorial", href: "https://metafacture.github.io/metafacture-tutorial/" },
+        ]
+      },
+      {
+        title: "Metafacture als zentrales Werkzeug an der UB Dortmund",
+        ids: ["metafacture"],
+        examples: [
+          { text: "UB Dortmund: Metadatenmanagement ohne Programmierkenntnisse: Ist das möglich?", href: "https://doi.org/10.1515/abitech-2020-2026" },
+        ]
+      },
+    ]
+  },
+  {
+    name: "skohub",
+    category: "tools",
+    logoPath: "logos/skohub.png",
+    quote: "SkoHub bietet eine einfache Möglichkeit, SKOS-Vokabulare aus dem Code-Repositorium in die Web- und LOD-Infrastruktur zu bringen.",
+    quoteAuthor: "Andreas Wagner, hbz",
+    description: `
+SkoHub stellt Infrastruktur und Software zum kollaborativen Erstellen und Publizieren von kontrollierten Vokabularen im Web bereit. Vokabulare können gemeinsam auf einer Entwicklungsplattform wie GitHub entwickelt, versioniert, und z.B. mit GitHub Pages auf SkoHub Vocabs veröffentlicht werden. Einmal publizierte Vokabulare können auch in Anwendungen von Drittanbietern — wie OpenRefine oder Cocoda — verwendet werden.
+
+
+Mit SkoHub publizierte Vokabulare folgen dem W3C-Standard Simple Knowledge Organization System (SKOS). Dies und die webbasierte Veröffentlichung gewährleisten ihre Interoperabilität und somit Nachnutzbarkeit über die lokale Verwendung hinaus. Auch ist ihre Sicht- und Durchsuchbarkeit sichergestellt.
+`,
+    links: [
+      "#skohub.praxisbeispiele",
+      "https://skohub.io",
+      "https://blog.skohub.io",
+      "/termine",
+      "https://metadaten.community/c/software-und-tools/skohub/9",
+    ],
+    exampleButtons: [
+    ],
+    exampleBoxes: [
+      {
+        title: "Publikation und Nutzung kontrollierter Vokabulare",
+        ids: [],
+        examples: [
+          { text: "Interdisziplinäre Forschungsfeldklassifikation des Kerndatensatz Forschung", href: "https://w3id.org/kdsf-ffk/" },
+          { text: "Hochschulfächersystematik nach Destatis", href: "https://w3id.org/kim/hochschulfaechersystematik/scheme" },
+        ]
+      },
+      {
+        title: "Beispielvokabulare",
+        ids: [""],
+        examples: [
+          { text: "How To: skohub-docker-vocabs forken und einrichten", href: "https://www.youtube.com/watch?v=JYVHiCYNl0U" },
+          { text: "Building and Deploying a Classification Schema using Open Standards and Technology", href: "https://doi.org/10.21825/dlh.85751" },
+        ]
+      },
     ]
   },
 ]

@@ -1,2 +1,0 @@
-- [A quick 5 minute introduction to Metafacture](http://metafacture.github.io/metafacture-documentation/MF-in-5-min.html)
-- [Metafacture Tutorial](https://metafacture.github.io/metafacture-tutorial/)

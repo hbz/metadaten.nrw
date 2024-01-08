@@ -1,6 +1,6 @@
 <script>
 	import ServiceDescription from '$lib/components/ServiceDescription.svelte';
-	import { services } from '$lib/components/MetadatenUndAPIs/metadataServices';
+	import { services } from '$lib/components/services';
 </script>
 
 <p>
@@ -33,6 +33,6 @@
 	Forschung, Museen, Archiven und Lehre seit mehr als 10 Jahren.
 </p>
 
-<ServiceDescription data={services[0]} />
-<ServiceDescription data={services[1]} />
-<ServiceDescription data={services[2]} />
+{#each services.filter((s) => s.category === 'metadata') as service}
+	<ServiceDescription data={service} />
+{/each}

@@ -1,2 +1,0 @@
-- [How To: skohub-docker-vocabs forken und einrichten ](https://www.youtube.com/watch?v=JYVHiCYNl0U)
-- [Building and Deploying a Classification Schema using Open Standards and Technology](https://doi.org/10.21825/dlh.85751)

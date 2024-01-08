@@ -1,8 +1,8 @@
 <script>
 	import Footer from '$lib/components/Footer.svelte';
 	import MetadatenUndApis from '$lib/components/MetadatenUndAPIs/MetadataAndAPIs.svelte';
-	import Tools from '$lib/components/Tools/index.svx';
-	import OffeneStandards from '$lib/components/OffeneStandards/index.svx';
+	import Tools from '$lib/components/Tools/Tools.svelte';
+	import OffeneStandards from '$lib/components/OffeneStandards/OffeneStandards.svelte';
 	import About from '$lib/components/About/index.svx';
 	import HeaderPad from '$lib/components/HeaderPad.svelte';
 	import HeaderMobile from '$lib/components/HeaderMobile.svelte';

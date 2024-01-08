@@ -1,1 +1,0 @@
-- [UB Dortmund: Metadatenmanagement ohne Programmierkenntnisse: Ist das möglich?](https://doi.org/10.1515/abitech-2020-2026)

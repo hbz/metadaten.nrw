@@ -1,2 +1,0 @@
-- [Interdisziplinäre Forschungsfeldklassifikation des Kerndatensatz Forschung](https://w3id.org/kdsf-ffk/)
-- [Hochschulfächersystematik nach Destatis](https://w3id.org/kim/hochschulfaechersystematik/scheme)
