@@ -5,8 +5,7 @@ export const services = [
     logoPath: "logos/lobid.png",
     quote: "Von der Durchsuchbarkeit, Verfügbarkeit und Nachnutzbarkeit hat kein GND-Service im	bibliothekarischen Alltag jenes Standing, welches lobid geniesst.",
     quoteAuthor: "Mfchris84, Wikipedia",
-    description: `
-lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets bieten. Die Gemeinsame Normdatei (lobid-gnd), die NRW-Verbunddaten (lobid-resources) und die	Organisationsdaten aus dem Sigelverzeichnis sowie der Deutschen Bibliotheksstatistik (DBS) (lobid-organisations). Sie werden als leicht nutzbare, strukturierte Daten über offene	Webschnittstellen angeboten. Insbesondere für die GND-Normdaten ermöglicht die Bereitstellung einer Reconciliation-Schnittstelle auch den Datenabgleich in Datenanwendungen wie OpenRefine oder Cocoda.
+    description: `lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets bieten. Die Gemeinsame Normdatei (lobid-gnd), die NRW-Verbunddaten (lobid-resources) und die	Organisationsdaten aus dem Sigelverzeichnis sowie der Deutschen Bibliotheksstatistik (DBS) (lobid-organisations). Sie werden als leicht nutzbare, strukturierte Daten über offene	Webschnittstellen angeboten. Insbesondere für die GND-Normdaten ermöglicht die Bereitstellung einer Reconciliation-Schnittstelle auch den Datenabgleich in Datenanwendungen wie OpenRefine oder Cocoda.
 `,
     links: [
       "#lobid.praxisbeispiele",
@@ -109,8 +108,7 @@ lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets
     logoPath: "logos/oersi.png",
     quote: "Die plattformübergreifende Listung unserer Lernressourcen durch OERSI trägt dank erhöhter Auffindbarkeit und Nachnutzung zur Verbesserung der Lehrkräfteaus- und -fortbildung bei.",
     quoteAuthor: "Manuel Oellers, COMEIN",
-    description: `
-OERSI ist ein länderübergreifendes Rechercheportal für offene Bildungsressourcen (Open Educational Resources) im Hochschulbereich, das wir kooperativ mit der Technischen Informationsbibliothek (TIB) entwickeln.
+    description: `OERSI ist ein länderübergreifendes Rechercheportal für offene Bildungsressourcen (Open Educational Resources) im Hochschulbereich, das wir kooperativ mit der Technischen Informationsbibliothek (TIB) entwickeln.
 
 OERSI sammelt die Metadaten von OER-Repositorien ein, wandelt sie nach Linked Open Usable Data um und stellt sie zur freien Nutzung und Recherche zur Verfügung. Umgekehrt kann OERSI in bibliothekarische Recherchedienste zur Erweiterung des Suchangebots integriert werden. 
 
@@ -141,8 +139,7 @@ Wenn auch Sie von mehr Sichtbarkeit für Ihre Bildungsressourcen profitieren ode
     logoPath: "logos/gokb.png",
     quote: "Die GOKb ist der zentrale Punkt, um Metadaten von E-Ressourcen mit Identifikatoren (z. B. ZDB-ID, EZB-ID, Titelverlauf) anreichern zu lassen. Daher dient die GOKb als Identitätsvermittler für elektronische Ressourcen über ihren gesamten Lebenszyklus hinweg.",
     quoteAuthor: "Daniel Rupp, hbz",
-    description: `
-Die Global Open Knowledgebase (GOKb) ist eine kooperativ betriebene, offene Datenplattform, in der Metadaten von Paketen elektronischer Ressourcen verwaltet werden, die durch automatische Prozesse normalisiert, validiert und angereichert werden, um sie optimal auf den Austausch mit Drittsystemen über offene Schnittstellen vorzubereiten. Alle GOKB-Daten stehen uneingeschränkt unter der CC0 1.0 Public Domain Dedication zur Verfügung.
+    description: `Die Global Open Knowledgebase (GOKb) ist eine kooperativ betriebene, offene Datenplattform, in der Metadaten von Paketen elektronischer Ressourcen verwaltet werden, die durch automatische Prozesse normalisiert, validiert und angereichert werden, um sie optimal auf den Austausch mit Drittsystemen über offene Schnittstellen vorzubereiten. Alle GOKB-Daten stehen uneingeschränkt unter der CC0 1.0 Public Domain Dedication zur Verfügung.
 
 Die Metadaten der GOKb umfassen Informationen zu Paketen, Titeln, Verfügbarkeitsdaten, Plattformen und Anbietern von E-Ressourcen. Das Datenmodell hält Änderungen nach und bietet Transparenz hinsichtlich der Datenherkunft und -aktualität.
 
@@ -166,8 +163,7 @@ Nutzende können die Datenqualität der Pakete direkt optimieren, indem sie sich
     logoPath: "logos/metafacture.png",
     quote: "Metafacture leistet sehr gute und performante Dienste, vor allem auch bei der Live-Transformation im Rahmen der Ergebnisdarstellung in unserem *Katalog plus*. Zudem lässt es sich auch von Bibliothekar:innen mit wenig Programmierkenntnissen verwenden.",
     quoteAuthor: "Hans-Georg Becker, UB Dortmund",
-    description: `
-metafacture ist ein auf bibliographische Metadaten spezialisiertes Toolkit für Datenprozesse. Ursprünglich wurde es von der DNB im Rahmen von CultureGraph entwickelt, 2019 hat das hbz die Maintainerschaft übernommen.
+    description: `Metafacture ist ein auf bibliographische Metadaten spezialisiertes Toolkit für Datenprozesse. Ursprünglich wurde es von der DNB im Rahmen von CultureGraph entwickelt, 2019 hat das hbz die Maintainerschaft übernommen.
 
 metafacture erlaubt das performante Handling von Metadaten auch im großen Stil. Es bietet sich etwa für den automatisierten Bezug und die Aufbereitung von Fremddaten an oder für das Management von Daten während einer Systemmigration. Ziel ist es, der Fachebene ein Tool an die Hand zu geben, Datentransformationen selbstständig umzusetzen und die Bib-IT zu entlasten.
 
@@ -208,9 +204,7 @@ Mit dem eigens entwickelten metafacture-Playground können Datenprozesse im Webb
     logoPath: "logos/skohub.png",
     quote: "SkoHub bietet eine einfache Möglichkeit, SKOS-Vokabulare aus dem Code-Repositorium in die Web- und LOD-Infrastruktur zu bringen.",
     quoteAuthor: "Andreas Wagner, hbz",
-    description: `
-SkoHub stellt Infrastruktur und Software zum kollaborativen Erstellen und Publizieren von kontrollierten Vokabularen im Web bereit. Vokabulare können gemeinsam auf einer Entwicklungsplattform wie GitHub entwickelt, versioniert, und z.B. mit GitHub Pages auf SkoHub Vocabs veröffentlicht werden. Einmal publizierte Vokabulare können auch in Anwendungen von Drittanbietern — wie OpenRefine oder Cocoda — verwendet werden.
-
+    description: `SkoHub stellt Infrastruktur und Software zum kollaborativen Erstellen und Publizieren von kontrollierten Vokabularen im Web bereit. Vokabulare können gemeinsam auf einer Entwicklungsplattform wie GitHub entwickelt, versioniert, und z.B. mit GitHub Pages auf SkoHub Vocabs veröffentlicht werden. Einmal publizierte Vokabulare können auch in Anwendungen von Drittanbietern — wie OpenRefine oder Cocoda — verwendet werden.
 
 Mit SkoHub publizierte Vokabulare folgen dem W3C-Standard Simple Knowledge Organization System (SKOS). Dies und die webbasierte Veröffentlichung gewährleisten ihre Interoperabilität und somit Nachnutzbarkeit über die lokale Verwendung hinaus. Auch ist ihre Sicht- und Durchsuchbarkeit sichergestellt.
 `,
