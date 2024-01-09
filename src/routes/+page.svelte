@@ -3,7 +3,7 @@
 	import MetadatenUndApis from '$lib/components/MetadatenUndAPIs/MetadataAndAPIs.svelte';
 	import Tools from '$lib/components/Tools/Tools.svelte';
 	import OffeneStandards from '$lib/components/OffeneStandards/OffeneStandards.svelte';
-	import About from '$lib/components/About/index.svx';
+	import About from '$lib/components/About/About.svelte';
 	import HeaderPad from '$lib/components/HeaderPad.svelte';
 	import HeaderMobile from '$lib/components/HeaderMobile.svelte';
 </script>
@@ -22,10 +22,10 @@
 				<Tools />
 			</div>
 			<div class="md mt-[40px] mx-[30px]" id="offeneStandards">
-				<OffeneStandards id="offeneStandards" />
+				<OffeneStandards />
 			</div>
 			<div class="md mx-[30px]" id="about">
-				<About id="about" />
+				<About />
 			</div>
 		</div>
 		<Footer />

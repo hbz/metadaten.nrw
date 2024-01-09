@@ -8,7 +8,7 @@ export const services = [
     description: `lobid umfasst drei Dienste, die Zugriff auf zentrale bibliothekarische Datensets bieten. Die Gemeinsame Normdatei (lobid-gnd), die NRW-Verbunddaten (lobid-resources) und die	Organisationsdaten aus dem Sigelverzeichnis sowie der Deutschen Bibliotheksstatistik (DBS) (lobid-organisations). Sie werden als leicht nutzbare, strukturierte Daten über offene	Webschnittstellen angeboten. Insbesondere für die GND-Normdaten ermöglicht die Bereitstellung einer Reconciliation-Schnittstelle auch den Datenabgleich in Datenanwendungen wie OpenRefine oder Cocoda.
 `,
     links: [
-      "#lobid.praxisbeispiele",
+      "lobid.praxisbeispiele",
       "https://lobid.org",
       "https://blog.lobid.org",
       "",
@@ -115,7 +115,7 @@ OERSI sammelt die Metadaten von OER-Repositorien ein, wandelt sie nach Linked Op
 Wenn auch Sie von mehr Sichtbarkeit für Ihre Bildungsressourcen profitieren oder sich dazu informieren möchten, besuchen Sie gerne das Forum.
 `,
     links: [
-      "#oersi.praxisbeispiele",
+      "oersi.praxisbeispiele",
       "https://oersi.org",
       "https://oersi.org/resources/pages/en/blog/",
       "",
@@ -170,7 +170,7 @@ metafacture erlaubt das performante Handling von Metadaten auch im großen Stil.
 Mit dem eigens entwickelten metafacture-Playground können Datenprozesse im Webbrowser erlernt, konzipiert, getestet und geteilt werden.
 `,
     links: [
-      "#metafacture.praxisbeispiele",
+      "metafacture.praxisbeispiele",
       "https://metafacture.org",
       "https://blog.metafacture.org",
       "/termine",
@@ -209,7 +209,7 @@ Mit dem eigens entwickelten metafacture-Playground können Datenprozesse im Webb
 Mit SkoHub publizierte Vokabulare folgen dem W3C-Standard Simple Knowledge Organization System (SKOS). Dies und die webbasierte Veröffentlichung gewährleisten ihre Interoperabilität und somit Nachnutzbarkeit über die lokale Verwendung hinaus. Auch ist ihre Sicht- und Durchsuchbarkeit sichergestellt.
 `,
     links: [
-      "#skohub.praxisbeispiele",
+      "skohub.praxisbeispiele",
       "https://skohub.io",
       "https://blog.skohub.io",
       "/termine",

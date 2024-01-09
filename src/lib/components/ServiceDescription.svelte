@@ -39,7 +39,7 @@
 	<div class="float-right md:w-1/2">
 		<div class="mt-[50px] md:mt-0 md:mb-0">
 			{#if data.links[0]}
-				<InternalLink fillBackground={false} href={data.links[0]} text="Praxisbeispiele" />
+				<InternalLink fillBackground={false} href={'#' + data.links[0]} text="Praxisbeispiele" />
 			{/if}
 			{#if data.links[1]}
 				<ExternalLink fillBackground={false} href={data.links[1]} text="Zur Webseite" />
@@ -63,6 +63,7 @@
 
 {#if data.exampleBoxes.length}
 	<div
+		id={data.links[0]}
 		class="mt-[20px] md:mt-[100px] h-11 text-fuchsia-700 text-3xl font-normal font-['Open Sans'] uppercase tracking-wide"
 	>
 		Praxisbeispiele
