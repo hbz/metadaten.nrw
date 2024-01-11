@@ -2,9 +2,10 @@
 	import ExampleSelectButton from '$lib/components/ExampleSelectButton.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Termin from '$lib/components/Termin.svelte';
-	import type { PageData } from './$types';
+	import type { PageServerData } from './$types';
 
-	export let data: PageData;
+  export const prerender = false
+	export let data: PageServerData;
 
 	let selectedExamples: string[] = [];
 
@@ -58,7 +59,6 @@
 				on:select={() => handleSelect('lobid-organisations')}
 				text="lobid-organisations"
 			/>
-			<ExampleSelectButton on:select={() => handleSelect('OERSI')} text="OERSI" />
 			<ExampleSelectButton on:select={() => handleSelect('OERSI')} text="OERSI" />
 			<ExampleSelectButton on:select={() => handleSelect('SkoHub')} text="SkoHub" />
 			<ExampleSelectButton on:select={() => handleSelect('metafacture')} text="metafacture" />
