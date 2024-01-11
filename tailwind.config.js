@@ -14,19 +14,19 @@ export default {
     colors: {
       ...colors,
       gray: colors.neutral,
-      hbzorange: "#F5821F",
-      headlineBlue: "#192271",
-      customBlueBg: "#1D2DB9",
       linkBg: "#192271",
       linkText: "#74EE71",
       activitesBg: "#EDEDED"
     },
     extend: {
       fontFamily: {
-        barlowCondensed: ["Barlow Condensed"],
-        robotoMono: ["Roboto Mono"],
-        robotoSlab: ["Roboto Slab"],
-      }
+        sans: ['"Open Sans"', 'ui-sans-serif',],
+      },
+      backgroundImage: {
+        'gradient-114': 'linear-gradient(114deg, var(--tw-gradient-stops))',
+        'gradient-172': 'linear-gradient(172deg, var(--tw-gradient-stops))',
+
+      },
 
     },
   },

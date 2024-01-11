@@ -1,11 +1,18 @@
-<div class="p-[21px] py-[50px] relative bg-white justify-center text-center text-headlineBlue">
-	<img class="mx-auto mb-[20px]" alt="hbz logo" src="logos/hbz.svg" />
+<div class="relative">
+	<div class="py-[50px] font-light text-sm mx-[30px]">
+		<img class="h-[30px] mb-[20px]" alt="hbz logo" src="logos/hbz.png" />
 
-	<p class="font-robotoSlab">Hochschulbibliothekszentrum NRW (hbz)</p>
-	<p class="font-robotoSlab">Jülicher Str. 6</p>
-	<p class="font-robotoSlab">50674 Köln</p>
-	<div class="mt-5">
-		<a class="underline font-robotoSlab" href="https://www.hbz-nrw.de/impressum">IMPRESSUM</a>
+		<p>Hochschulbibliothekszentrum NRW (hbz)</p>
+		<p>Jülicher Str. 6</p>
+		<p>50674 Köln</p>
+		<div class="mt-5">
+			<a class="underline" href="https://www.hbz-nrw.de/impressum">IMPRESSUM</a>
+		</div>
+		<img class="mt-[50px]" alt="nrw logo" src="logos/nrw.png" />
 	</div>
-	<img class="mx-auto mt-[50px]" alt="nrw logo" src="logos/nrw.png" />
+	<div
+		class="absolute -right-0 bottom-0 w-32 h-52 bg-gradient-to-b from-fuchsia-700 to-sky-800 rounded-tl-2xl"
+	>
+		<img class="w-[94px] object-contain mt-[23px] ml-[21px]" src="metadaten-nrw-hoch-w.png" />
+	</div>
 </div>

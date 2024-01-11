@@ -1,8 +1,10 @@
 <script lang="ts">
-	import { className } from './linkStyle';
+	import { classNameBg } from './linkStyle';
+	import { classNameNoBg } from './linkStyle';
 
 	export let text: string;
 	export let href: string;
+	export let fillBackground: boolean = true;
 </script>
 
-<a {href} target="_blank" class="text-[16px] sm:text-[18px] px-[15px] pt-[12px] pb-[9px] mx-[2px] sm:mx-[4px] mb-3 bg-linkBg text-linkText underline font-bold font-robotoMono rounded-full shadow-xl cursor-pointer inline-block tracking-[0.09em]">{text}</a>
+<a {href} rel="external" class={fillBackground ? classNameBg : classNameNoBg}>{text}</a>
