@@ -167,7 +167,7 @@ Nutzende können die Datenqualität der Pakete direkt optimieren, indem sie sich
 
 metafacture erlaubt das performante Handling von Metadaten auch im großen Stil. Es bietet sich etwa für den automatisierten Bezug und die Aufbereitung von Fremddaten an oder für das Management von Daten während einer Systemmigration. Ziel ist es, der Fachebene ein Tool an die Hand zu geben, Datentransformationen selbstständig umzusetzen und die Bib-IT zu entlasten.
 
-Mit dem eigens entwickelten metafacture-Playground können Datenprozesse im Webbrowser erlernt, konzipiert, getestet und geteilt werden.
+Mit dem eigens entwickelten Metafacture-Playground können Datenprozesse im Webbrowser erlernt, konzipiert, getestet und geteilt werden.
 `,
     links: [
       "metafacture.praxisbeispiele",
@@ -203,7 +203,7 @@ Mit dem eigens entwickelten metafacture-Playground können Datenprozesse im Webb
     category: "tools",
     logoPath: "logos/skohub.png",
     quote: "SkoHub bietet eine einfache Möglichkeit, SKOS-Vokabulare aus dem Code-Repositorium in die Web- und LOD-Infrastruktur zu bringen.",
-    quoteAuthor: "Andreas Wagner, hbz",
+    quoteAuthor: "Andreas Wagner, Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie",
     description: `SkoHub stellt Infrastruktur und Software zum kollaborativen Erstellen und Publizieren von kontrollierten Vokabularen im Web bereit. Vokabulare können gemeinsam auf einer Entwicklungsplattform wie GitHub entwickelt, versioniert, und z.B. mit GitHub Pages auf SkoHub Vocabs veröffentlicht werden. Einmal publizierte Vokabulare können auch in Anwendungen von Drittanbietern — wie OpenRefine oder Cocoda — verwendet werden.
 
 Mit SkoHub publizierte Vokabulare folgen dem W3C-Standard Simple Knowledge Organization System (SKOS). Dies und die webbasierte Veröffentlichung gewährleisten ihre Interoperabilität und somit Nachnutzbarkeit über die lokale Verwendung hinaus. Auch ist ihre Sicht- und Durchsuchbarkeit sichergestellt.
