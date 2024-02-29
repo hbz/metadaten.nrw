@@ -10,6 +10,6 @@
 	Web. So haben wir uns die Bereitstellung offener und webkonformer Metadaten zur Aufgabe gemacht,
 	entwickeln und pflegen Free and Open Source Software (FOSS) und beteiligen uns an der
 	community-basierten Entwicklung offener Standards. Mit der Bereitstellung des Forums
-	[metadaten.community](https://metadaten.community) unterstützung wir Austausch und Vernetzung in
-	der deutschsprachigen Community von Metadatenpraktiker:innen.
+	<a href="https://metadaten.community">metadaten.community</a> unterstützung wir Austausch und Vernetzung
+	in der deutschsprachigen Community von Metadatenpraktiker:innen.
 </p>

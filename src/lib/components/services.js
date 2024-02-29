@@ -161,7 +161,7 @@ Nutzende können die Datenqualität der Pakete direkt optimieren, indem sie sich
     name: "metafacture",
     category: "tools",
     logoPath: "logos/metafacture.png",
-    quote: "Metafacture leistet sehr gute und performante Dienste, vor allem auch bei der Live-Transformation im Rahmen der Ergebnisdarstellung in unserem *Katalog plus*. Zudem lässt es sich auch von Bibliothekar:innen mit wenig Programmierkenntnissen verwenden.",
+    quote: "Metafacture leistet sehr gute und performante Dienste, vor allem auch bei der Live-Transformation im Rahmen der Ergebnisdarstellung in unserem Katalog plus. Zudem lässt es sich auch von Bibliothekar:innen mit wenig Programmierkenntnissen verwenden.",
     quoteAuthor: "Hans-Georg Becker, UB Dortmund",
     description: `Metafacture ist ein auf bibliographische Metadaten spezialisiertes Toolkit für Datenprozesse. Ursprünglich wurde es von der DNB im Rahmen von CultureGraph entwickelt, 2019 hat das hbz die Maintainerschaft übernommen.
 
