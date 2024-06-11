@@ -8,7 +8,6 @@
 		<div class="mt-5">
 			<a class="underline" href="https://www.hbz-nrw.de/impressum">IMPRESSUM</a>
 		</div>
-		<img class="mt-[50px]" alt="nrw logo" src="logos/nrw.png" />
 	</div>
 	<div
 		class="absolute -right-0 bottom-0 w-32 h-52 bg-gradient-to-b from-fuchsia-700 to-sky-800 rounded-tl-2xl"
