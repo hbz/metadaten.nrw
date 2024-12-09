@@ -110,7 +110,7 @@ export const services = [
     quoteAuthor: "Manuel Oellers, COMEIN",
     description: `OERSI ist ein länderübergreifendes Rechercheportal für offene Bildungsressourcen (Open Educational Resources) im Hochschulbereich, das wir kooperativ mit der Technischen Informationsbibliothek (TIB) entwickeln.
 
-OERSI sammelt die Metadaten von OER-Repositorien ein, wandelt sie nach Linked Open Usable Data um und stellt sie zur freien Nutzung und Recherche zur Verfügung. Umgekehrt kann OERSI in bibliothekarische Recherchedienste zur Erweiterung des Suchangebots integriert werden. 
+OERSI sammelt die Metadaten von OER-Repositorien ein, wandelt sie nach Linked Open Usable Data um und stellt sie zur freien Nutzung und Recherche zur Verfügung. Umgekehrt kann OERSI in bibliothekarische Recherchedienste zur Erweiterung des Suchangebots integriert werden.
 
 Wenn auch Sie von mehr Sichtbarkeit für Ihre Bildungsressourcen profitieren oder sich dazu informieren möchten, besuchen Sie gerne das Forum.
 `,
@@ -137,13 +137,13 @@ Wenn auch Sie von mehr Sichtbarkeit für Ihre Bildungsressourcen profitieren ode
     name: "gokb",
     category: "metadata",
     logoPath: "logos/gokb.png",
-    quote: "Die GOKb ist der zentrale Punkt, um Metadaten von E-Ressourcen mit Identifikatoren (z. B. ZDB-ID, EZB-ID, Titelverlauf) anreichern zu lassen. Daher dient die GOKb als Identitätsvermittler für elektronische Ressourcen über ihren gesamten Lebenszyklus hinweg.",
+    quote: "Die GOKB ist der zentrale Punkt, um Metadaten von E-Ressourcen mit Identifikatoren (z. B. ZDB-ID, EZB-ID, Titelverlauf) anreichern zu lassen. Daher dient die GOKB als Identitätsvermittler für elektronische Ressourcen über ihren gesamten Lebenszyklus hinweg.",
     quoteAuthor: "Daniel Rupp, hbz",
-    description: `Die Global Open Knowledgebase (GOKb) ist eine kooperativ betriebene, offene Datenplattform, in der Metadaten von Paketen elektronischer Ressourcen verwaltet werden, die durch automatische Prozesse normalisiert, validiert und angereichert werden, um sie optimal auf den Austausch mit Drittsystemen über offene Schnittstellen vorzubereiten. Alle GOKB-Daten stehen uneingeschränkt unter der CC0 1.0 Public Domain Dedication zur Verfügung.
+    description: `Die Global Open Knowledgebase (GOKB) ist eine kooperativ betriebene, offene Datenplattform, in der Metadaten von Paketen elektronischer Ressourcen verwaltet werden, die durch automatische Prozesse normalisiert, validiert und angereichert werden, um sie optimal auf den Austausch mit Drittsystemen über offene Schnittstellen vorzubereiten. Alle GOKB-Daten stehen frei und ohne Einschränkung zur Nachnutzung in verschiedenen Kontexten zur Verfügung.
 
-Die Metadaten der GOKb umfassen Informationen zu Paketen, Titeln, Verfügbarkeitsdaten, Plattformen und Anbietern von E-Ressourcen. Das Datenmodell hält Änderungen nach und bietet Transparenz hinsichtlich der Datenherkunft und -aktualität.
+    Die Metadaten der GOKB umfassen Informationen zu Paketen, Titeln, Verfügbarkeitsdaten, Plattformen und Anbietern von E-Ressourcen. Das Datenmodell hält Änderungen nach und bietet Transparenz hinsichtlich der Datenherkunft und -aktualität.
 
-Nutzende können die Datenqualität der Pakete direkt optimieren, indem sie sich an der Datenerfassung und -pflege beteiligen. Die internationale Community setzt sich aus Bibliotheken, Konsortialstellen und Anbietern zusammen. Die GOKb lebt davon, dass die Nutzenden die Pakete kuratieren, Änderungen bei den Meta- und Titeldaten nachhalten und Datenprobleme beheben, die beim Datenimport durch automatisiert erstellte Prüfanfragen identifiziert und aufbereitet werden.
+    Nutzende können die Datenqualität der Pakete direkt optimieren, indem sie sich an der Datenerfassung und -pflege beteiligen. Die internationale Community setzt sich aus Bibliotheken, Konsortialstellen und Anbietern zusammen. Die GOKB lebt davon, dass die Nutzenden die Pakete kuratieren, Änderungen bei den Meta- und Titeldaten nachhalten und Datenprobleme beheben, die beim Datenimport durch automatisiert erstellte Prüfanfragen identifiziert und aufbereitet werden.
 `,
     links: [
       "",
