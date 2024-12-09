@@ -1,12 +1,11 @@
-FROM node:18 as build
+FROM node:18.13.0-buster-slim
 
-WORKDIR /app
-
+WORKDIR /opt/
 COPY package.json ./
-COPY package-lock.json ./
 RUN npm install
-COPY . .
-RUN npm run build
+ENV PATH /opt/node_modules/.bin:$PATH
 
-FROM nginx:1.25-alpine
-COPY --from=build /app/build /usr/share/nginx/html
+WORKDIR /opt/app
+COPY . .
+
+CMD ["npm", "run", "build"]
